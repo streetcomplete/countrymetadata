@@ -1,6 +1,6 @@
 # Country Metadata
 
-This repository contains various country-specific metadata, for example whether road users drive on the left or on the right (see [isLeftHandTraffic.yml](https://github.com/streetcomplete/countrymetadata/data/isLeftHandTraffic.yml)). See the first few lines in each file to learn what exactly they are about.
+This repository contains various country-specific metadata, for example whether road users drive on the left or on the right (see [isLeftHandTraffic.yml](https://github.com/streetcomplete/countrymetadata/blob/master/data/isLeftHandTraffic.yml)). See the first few lines in each file to learn what exactly they are about.
 
 This data collection has been created for and is maintained for [StreetComplete](https://github.com/streetcomplete/StreetComplete/), however it may be useful for other users as well.
 
