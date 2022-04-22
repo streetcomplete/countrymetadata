@@ -1,0 +1,39 @@
+# Style of a no entry sign at the end of a oneway road
+#
+# Sources:
+# - https://en.wikipedia.org/wiki/Comparison_of_European_road_signs
+# - https://en.wikipedia.org/wiki/Comparison_of_MUTCD-influenced_traffic_signs
+# - https://commons.wikimedia.org/wiki/Prohibitory_traffic_sign#No_entry
+#
+# Styles:
+# - default      - ⛔
+# - yellow       - ⛔ but with all white parts yellow
+# - arrow        - a black arrow with a red 🛇 in front
+# - do not enter - ⛔ with white text "DO NOT ENTER"
+# - no entry     - ⛔ with white text "NO ENTRY"
+# - no entre     - ⛔ with white text "NO ENTRE"
+#
+# In reality, each sign in each country looks slightly different, hence this is just a grouping by
+# general style.
+# See the files in https://github.com/streetcomplete/StreetComplete/tree/master/res/graphics/oneway/no%20entry%20signs
+# for a generalized visualization of each. (those are (c) Tobias Zwick, Licence: CC-BY-SA 4.0)
+default: default
+AR: default # and arrow
+AU: no entry
+BR: arrow
+CL: arrow
+CO: no entre # actually "no pase" but the difference is minor
+FI: yellow
+FJ: no entry # (but text is on white bar \_(ツ)_/¯)
+IE: default # and arrow
+IN: arrow
+IS: yellow
+KE: arrow
+LR: do not enter
+MX: arrow
+NZ: no entry # (but text is on white bar \_(ツ)_/¯)
+PA: arrow # and weird custom version
+PE: no entre # and arrow
+SE: yellow
+US: do not enter
+UY: default # and arrow
