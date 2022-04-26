@@ -6,12 +6,13 @@
 # - https://commons.wikimedia.org/wiki/Prohibitory_traffic_sign#No_entry
 #
 # Styles:
-# - default      - ⛔
-# - yellow       - ⛔ but with all white parts yellow
-# - arrow        - a black arrow with a red 🛇 in front
-# - do not enter - ⛔ with white text "DO NOT ENTER"
-# - no entry     - ⛔ with white text "NO ENTRY"
-# - no entre     - ⛔ with white text "NO ENTRE"
+# - default           - ⛔
+# - yellow            - ⛔ but with all white parts yellow
+# - arrow             - a black arrow with a red 🛇 in front
+# - do not enter      - ⛔ with white text "DO NOT ENTER"
+# - no entry          - ⛔ with white text "NO ENTRY"
+# - no entre          - ⛔ with white text "NO ENTRE"
+# - no entry on white - ⛔ with red text "NO ENTRY" on the white stripe
 #
 # In reality, each sign in each country looks slightly different, hence this is just a grouping by
 # general style.
@@ -24,16 +25,17 @@ BR: arrow
 CL: arrow
 CO: no entre # actually "no pase" but the difference is minor
 FI: yellow
-FJ: no entry # (but text is on white bar \_(ツ)_/¯)
+FJ: no entry on white
 IE: default # and arrow
 IN: arrow
 IS: yellow
 KE: arrow
 LR: do not enter
 MX: arrow
-NZ: no entry # (but text is on white bar \_(ツ)_/¯)
+NZ: no entry on white
 PA: arrow # and weird custom version
 PE: no entre # and arrow
+PR: no entre # https://goo.gl/maps/6FQSKeKeaGBSJo887
 SE: yellow
 US: do not enter
 UY: default # and arrow
