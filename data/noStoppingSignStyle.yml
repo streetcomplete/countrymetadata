@@ -9,15 +9,16 @@
 # other sources given below
 #
 # Styles:
-# - vienna       - a ⭕ crossed on blue background
-# - mutcd        - a ⭕ crossed on white background
-# - mutcd latin  - a black E behind a ⭕ crossed on white background
-# - mutcd text   - rectangular with text "NO STOPPING"
-# - sadc         - a black S in front of a mirrored 🚫 on white background
-# - australia    - a black S behind a mirrored 🚫 on white background
-# - colombia     - a black P behind a ⭕ crossed on white background
-# - canada       - a black 🛑 (stop sign) behind a 🚫 on white background
-# - israel       - 🚫 on blue background with a white ╲ on top
+# - vienna             - a ⭕ crossed on blue background
+# - mutcd              - a ⭕ crossed on white background
+# - mutcd latin        - a black E behind a ⭕ crossed on white background
+# - mutcd text         - rectangular with text "NO STOPPING"
+# - mutcd text spanish - rectangular with text "NO PARE" above "NO ESTACIONE"
+# - sadc               - a black S in front of a mirrored 🚫 on white background
+# - australia          - a black S behind a mirrored 🚫 on white background
+# - colombia           - a black P behind a ⭕ crossed on white background
+# - canada             - a black 🛑 (stop sign) behind a 🚫 on white background
+# - israel             - 🚫 on blue background with a white ╲ on top
 #
 # In reality, each sign in each country looks slightly different, hence this is just a grouping by
 # general style.
@@ -95,7 +96,7 @@ PE: mutcd
 PG: australia
 PH: mutcd
 PK: vienna
-PR: mutcd
+PR: mutcd text spanish # https://github.com/streetcomplete/countrymetadata/issues/1
 PY: mutcd latin
 QA: vienna # https://www.google.com/maps/@25.29217,51.4964117,3a,73.8y,34.97h,80.38t/data=!3m8!1e1!3m6!1sAF1QipPmFGsfI-xjtbWMBARY8BtyykKpYWY835q2yXtY!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPmFGsfI-xjtbWMBARY8BtyykKpYWY835q2yXtY%3Dw203-h100-k-no-pi-0-ya230.78639-ro0-fo100!7i5660!8i2830
 RW: vienna # https://www.mapillary.com/app/?pKey=524743862004239
