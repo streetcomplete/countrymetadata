@@ -96,7 +96,7 @@ PE: mutcd
 PG: australia
 PH: mutcd
 PK: vienna
-PR: mutcd text spanish # https://github.com/streetcomplete/countrymetadata/issues/1
+PR: mutcd text spanish # https://www.google.de/maps/@18.4007917,-66.0561823,3a,15.4y,30.12h,80.43t/data=!3m9!1e1!3m7!1sLXFXKKxgWmlOqnv3KKWfXg!2e0!7i13312!8i6656!9m2!1b1!2i41
 PY: mutcd latin
 QA: vienna # https://www.google.com/maps/@25.29217,51.4964117,3a,73.8y,34.97h,80.38t/data=!3m8!1e1!3m6!1sAF1QipPmFGsfI-xjtbWMBARY8BtyykKpYWY835q2yXtY!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPmFGsfI-xjtbWMBARY8BtyykKpYWY835q2yXtY%3Dw203-h100-k-no-pi-0-ya230.78639-ro0-fo100!7i5660!8i2830
 RW: vienna # https://www.mapillary.com/app/?pKey=524743862004239
