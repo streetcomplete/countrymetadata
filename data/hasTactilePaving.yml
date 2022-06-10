@@ -1,0 +1,47 @@
+# Whether tactile paving is common.
+#
+# Sources:
+# https://github.com/streetcomplete/StreetComplete/issues/750
+# https://github.com/streetcomplete/StreetComplete/issues/2463
+
+default: false
+
+# Europe
+AT: true
+BE: true
+CH: true
+CZ: true
+DE: true
+DK: true
+EE: true
+ES: true
+FR: true
+GB: true
+HR: true
+HU: true
+IE: true
+IT: true
+LT: true
+LU: true
+LV: true
+NL: true
+'NO': true
+PL: true
+RU: true
+SE: true
+SK: true
+
+# America
+AR: true
+CA: true
+US: true
+
+# Asia
+HK: true
+JP: true
+KR: true
+SG: true
+
+# Oceania
+AU: true
+NZ: true

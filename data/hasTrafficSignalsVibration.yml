@@ -1,0 +1,4 @@
+# Whether traffic signals may have tactile indication that it's safe to cross.
+
+default: true
+RU: false # https://github.com/streetcomplete/StreetComplete/issues/4021

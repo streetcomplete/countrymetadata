@@ -1,0 +1,78 @@
+# Whether cycleways are common.
+#
+# Sources:
+# https://github.com/streetcomplete/StreetComplete/issues/749
+# Google Street View (driving around in virtual car)
+# https://en.wikivoyage.org/wiki/Cycling
+# http://peopleforbikes.org/get-local/ (US)
+
+default: false
+
+# all of Northern and Western Europe, most of Central Europe, some of Southern Europe
+AT: true
+BE: true
+CH: true
+CZ: true
+DE: true
+DK: true
+ES: true
+FI: true
+FR: true
+GB: true
+HR: true
+HU: true
+IE: true
+IS: true
+IT: true
+LI: true
+LU: true
+NL: true
+'NO': true
+PL: true
+SE: true
+
+# East Asia
+JP: true
+KR: true
+TW: true
+
+# some of China (East Coast)
+CN-BJ: true
+CN-CQ: true
+CN-FJ: true
+CN-GD: true
+CN-JS: true
+CN-SD: true
+CN-SH: true
+CN-TJ: true
+CN-ZJ: true
+
+# Australia etc
+AU: true
+NZ: true
+
+# some of Canada
+CA-BC: true
+CA-NS: true
+CA-ON: true
+CA-PE: true
+CA-QC: true
+
+# some of the US
+# West Coast, East Coast, Center, South
+US-AZ: true
+US-CA: true
+US-CT: true
+US-DC: true
+US-FL: true
+US-IL: true
+US-IN: true
+US-MA: true
+US-MI: true
+US-MN: true
+US-NJ: true
+US-NY: true
+US-OR: true
+US-TX: true
+US-WA: true
+US-WI: true

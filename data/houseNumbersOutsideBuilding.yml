@@ -1,0 +1,5 @@
+# Whether housenumbers are usually mapped outside the building (at the property entrance).
+
+default: false
+FR: true # https://github.com/streetcomplete/StreetComplete/issues/2427 https://t.me/osmfr/26320
+IT: true # https://lists.openstreetmap.org/pipermail/talk-it/2018-July/063712.html

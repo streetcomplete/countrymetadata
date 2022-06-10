@@ -1,0 +1,6 @@
+# Whether addresses in this country include street information.
+#
+# Source: https://github.com/streetcomplete/StreetComplete/issues/1407
+
+default: true
+JP: false # housenumbers usually have block numbers, not streets

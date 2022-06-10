@@ -1,0 +1,23 @@
+# Whether summit registers and/or summit crosses are known.
+
+default: false
+
+# Europe
+AT: true # https://de.wikipedia.org/wiki/Gipfelkreuz
+CH: true # https://de.wikipedia.org/wiki/Gipfelkreuz
+CZ: true # https://cs.wikipedia.org/wiki/Vrcholov%C3%A1_kniha
+DE: true # https://de.wikipedia.org/wiki/Gipfelbuch
+ES: true # https://es.wikipedia.org/wiki/Comprobante_de_cumbre
+FR: true # https://it.wikipedia.org/wiki/Libro_di_vetta#Alcuni_esempi_di_libri_di_vetta
+GR: true # https://it.wikipedia.org/wiki/Libro_di_vetta#Alcuni_esempi_di_libri_di_vetta 
+IT: true # https://it.wikipedia.org/wiki/Libro_di_vetta
+NL: false # https://nl.wikipedia.org/wiki/Gipfelbuch is about "foreign" summit registers e.g. in the Alps
+PL: false # https://github.com/westnordost/StreetComplete/issues/561#issuecomment-325504455
+RO: true # https://es.wikipedia.org/wiki/Cruz_de_la_cumbre#Ejemplos
+SI: true # https://it.wikipedia.org/wiki/Libro_di_vetta#Alcuni_esempi_di_libri_di_vetta
+SK: true # https://it.wikipedia.org/wiki/Croce_di_vetta#Alcuni_esempi_di_croci_di_vetta
+
+# Americas
+AR: true # https://en.wikipedia.org/wiki/Summit_cross#Gallery
+PE: true # https://es.wikipedia.org/wiki/Cruz_de_la_cumbre#Ejemplos
+US: true # https://de.wikipedia.org/wiki/Gipfelkreuz

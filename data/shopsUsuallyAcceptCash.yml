@@ -1,0 +1,6 @@
+# Whether it can be assumed that any shop accepts cash.
+#
+# Source: https://github.com/streetcomplete/StreetComplete/issues/1573
+
+default: true
+SE: false

@@ -1,0 +1,8 @@
+# Whether housenumbers are usually imported from an official source.
+
+default: false
+CZ: true # https://lists.openstreetmap.org/pipermail/talk-cz/2017-November/017901.html
+DK: true # https://lists.openstreetmap.org/pipermail/talk-dk/2017-November/004898.html
+LU: true # https://github.com/streetcomplete/StreetComplete/pull/1943
+NL: true # https://forum.openstreetmap.org/viewtopic.php?id=60356
+'NO': true # https://forum.openstreetmap.org/viewtopic.php?id=60357
