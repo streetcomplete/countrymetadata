@@ -1,0 +1,14 @@
+# Whether fuel stations usually offer self service and/or full service.
+
+default: self service
+
+AL: full service # https://github.com/streetcomplete/StreetComplete/issues/1827#issuecomment-629305394
+IT: both # https://github.com/streetcomplete/StreetComplete/issues/1827
+UK: both # https://github.com/streetcomplete/StreetComplete/pull/2822#issuecomment-977850275
+# PL: both? # https://github.com/streetcomplete/StreetComplete/issues/1827#issuecomment-629044860
+
+# countries where self service is illegal: https://github.com/streetcomplete/StreetComplete/issues/1827#issuecomment-629268909
+BR: full service
+US-NJ: full service
+US-OR: full service
+ZA: full service

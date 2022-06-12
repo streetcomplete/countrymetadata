@@ -1,5 +1,0 @@
-# Whether it can be assumed that any fuel station allows self-service.
-
-default: true
-IT: false # https://github.com/streetcomplete/StreetComplete/issues/1827
-UK: false # https://github.com/streetcomplete/StreetComplete/pull/2822#issuecomment-977850275
