@@ -1,7 +1,0 @@
-# Whether bus stops are usually referred to by their name.
-#
-# Source: https://github.com/streetcomplete/StreetComplete/issues/2126
-
-default: true
-CA: false
-US: false

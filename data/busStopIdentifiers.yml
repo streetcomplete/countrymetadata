@@ -1,0 +1,8 @@
+# Whether bus stops are usually referred to by their name and/or reference number.
+#
+# Source: https://github.com/streetcomplete/StreetComplete/issues/2126
+
+default: [name]
+CA: [ref]
+JE: [name, ref]
+US: [ref]
