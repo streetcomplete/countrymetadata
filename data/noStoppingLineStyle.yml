@@ -7,6 +7,7 @@
 # to indicate the start/end.
 #
 # This list is not complete. Parking and stopping restrictions researched (so far) for: see noParkingLineStyle.yml
+AD: yellow # https://www.mobilitat.ad/Uploads/reglament_marques_viaries_11_20210929115752_ca-ES.pdf , Article 4.1.5. Marques d’altres colors, 2. (page 9)
 AT: yellow # https://www.oeamtc.at/thema/vorschriften-strafen/gelbe-linien-am-strassenrand-16181806 , https://www.fuerboeck.at/verkehrsrecht/bodenmarkierungen/halteverbot-parkverbot/
 BY: yellow # extrapolating from neighbours RU, UA, LT, LV
 CH: yellow # https://de.wikipedia.org/wiki/Stra%C3%9Fenmarkierung#Grenzmarkierungen_in_der_Schweiz

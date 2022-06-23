@@ -19,6 +19,7 @@
 # See the files in https://github.com/streetcomplete/StreetComplete/tree/master/res/graphics/oneway/no%20entry%20signs
 # for a generalized visualization of each. (those are (c) Tobias Zwick, Licence: CC-BY-SA 4.0)
 default: default
+AD: default # https://www.mobilitat.ad/Uploads/reglament_dels_tipus_significat_dels_senyals_11_20210929115852_ca-ES.pdf page 29
 AR: default # and arrow
 AU: no entry
 BR: arrow

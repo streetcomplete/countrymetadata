@@ -5,6 +5,7 @@
 #
 # source - Mapillary
 default: white
+AD: white # https://www.mobilitat.ad/Uploads/reglament_marques_viaries_11_20210929115752_ca-ES.pdf page 3
 AE: yellow
 AO: white
 AR: yellow

@@ -25,6 +25,7 @@
 # See the files in https://github.com/streetcomplete/StreetComplete/tree/master/res/graphics/street%20parking/no%20stopping%20sign
 # for a generalized visualization of each. (those are (c) Tobias Zwick, Licence: CC-BY-SA 4.0)
 default: vienna
+AD: vienna # https://www.mobilitat.ad/Uploads/reglament_dels_tipus_significat_dels_senyals_11_20210929115852_ca-ES.pdf page 32
 AF: vienna # https://www.mapillary.com/app/?pKey=3959438737485800
 AG: vienna
 AO: vienna # https://www.mapillary.com/app/?pKey=751474835497995

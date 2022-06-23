@@ -8,6 +8,7 @@
 # See the files in https://github.com/streetcomplete/StreetComplete/tree/master/res/graphics/street%20parking/alternate%20side%20parking%20sign
 # for a generalized visualization of each. (those are (c) Tobias Zwick, Licence: CC-BY-SA 4.0)
 default: false
+AD: true # https://www.mobilitat.ad/Uploads/reglament_dels_tipus_significat_dels_senyals_11_20210929115852_ca-ES.pdf page 32
 AL: true # no source but other ex-Jugoslawia states have it
 AM: true # https://en.wikipedia.org/wiki/Road_signs_in_Armenia
 AT: true # https://en.wikipedia.org/wiki/Road_signs_in_Austria

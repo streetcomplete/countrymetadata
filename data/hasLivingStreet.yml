@@ -7,12 +7,15 @@
 # http://wiki.openstreetmap.org/wiki/Tag:highway%3Dliving_street
 # https://commons.wikimedia.org/wiki/Category:Diagrams_of_road_signs_by_country
 default: false
+AD: true # https://www.mobilitat.ad/Uploads/reglament_dels_tipus_significat_dels_senyals_11_20210929115852_ca-ES.pdf page 44
 AL: true
-AZ: true
+AM: true # https://transinfo.am/pdd/6_2.html 5.21
 AO: true
 AM: true
 AU: true
 AT: true
+AZ: true
+BA: true
 BY: true
 BE: true
 BA: true

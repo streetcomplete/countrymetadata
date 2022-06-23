@@ -19,11 +19,13 @@
 # general style.
 # See the files in https://github.com/streetcomplete/StreetComplete/tree/master/res/graphics/living%20street
 # for a generalized visualization of each. (those are (c) Tobias Zwick, Licence: CC-BY-SA 4.0)
+AD: vienna # https://www.mobilitat.ad/Uploads/reglament_dels_tipus_significat_dels_senyals_11_20210929115852_ca-ES.pdf page 44
 AL: vienna
-AM: russia
+AM: russia # https://transinfo.am/pdd/6_2.html 5.21
 AO: sadc
 AT: vienna
 AU: australia # https://en.wikipedia.org/wiki/Shared_Zone
+AZ: russia # https://topmister.org/yasayis-zonalarinda-h%C9%99r%C9%99k%C9%99t-madd%C9%99-45/
 BA: vienna
 BE: vienna
 BG: vienna
