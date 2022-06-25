@@ -16,27 +16,28 @@ AU: true
 AT: true
 AZ: true
 BA: true
-BY: true
 BE: true
-BA: true
-BW: true
 BG: true
-HR: true
+BW: true
+BY: true
+CH: true
 CZ: true
-DK: true
+DE: true
+DK: true # https://www.retsinformation.dk/eli/lta/2017/1632 E51 Opholds- og legeområde
 EE: true
+ES: true
 FI: true
 FR: true
 GB: true
 GE: true
-DE: true
 GR: true
+HR: true
 HU: true
 IL: false # OSM wiki: "No special legal category corresponding to Living Streets exists in Ireland. Tag as residential with maxspeed of either 50 or 30 as indicated by signs"
 IS: true
 IT: false # OSM wiki: "Living streets do not exist in Italy. The 'sign Italian traffic signs - zona residenziale.svg' is defined as 'Zona residenziale', but no special rules corresponding to Living Streets exists. Tag as residential with maxspeed of either 50 or 30 as indicated by signs."
-KZ: true
 KG: true
+KZ: true
 LV: true
 LS: true
 LT: true
@@ -50,22 +51,20 @@ MN: true
 MX: true
 MZ: true
 NA: true
+'NO': true
 NL: true
 NZ: true
-'NO': true
 PL: true
 RO: true
 RU: true
 RS: true
 SC: true
-SK: true
-SI: true
-ES: true
-SZ: true
 SE: true
-CH: true
-TZ: true
+SI: true
+SK: true
+SZ: true
 TR: true
+TZ: true
 UA: true
 XK: true # because all surrounding ones have it
 ZA: true
