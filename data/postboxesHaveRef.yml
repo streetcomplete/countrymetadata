@@ -1,0 +1,19 @@
+# Whether postboxes usually have signed reference numbers.
+#
+# Sources:
+# https://commons.wikimedia.org/wiki/Category:Post_boxes_by_country
+# https://github.com/streetcomplete/StreetComplete/issues/1556#issuecomment-531493031
+
+default: false
+CH: true
+CZ: true
+FR: true
+GB: true
+GG: true
+IE: true
+IM: true
+JE: true
+MT: true
+SG: true
+SK: true
+US: true
