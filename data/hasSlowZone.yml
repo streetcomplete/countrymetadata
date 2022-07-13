@@ -4,12 +4,12 @@
 #
 # see https://en.wikipedia.org/wiki/30_km/h_zone
 default: false
-# European countries, except Sweden and Bulgaria
+# European countries, except Sweden
 AD: true
 AT: true
 BA: true
 BE: true
-BG: false
+BG: true
 BY: true
 CH: true
 CZ: true
