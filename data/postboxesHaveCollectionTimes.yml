@@ -1,0 +1,103 @@
+# Whether postboxes have regular and signed collection times.
+#
+# Sources:
+# https://www.itinerantspirit.com/home/2016/5/22/post-boxes-from-around-the-world
+# https://commons.wikimedia.org/wiki/Category:Post_boxes_by_country
+# http://wanderlustexplorers.com/youve-got-mail-23-international-postal-boxes/
+
+default: false
+
+# definitely, seen pictures:
+AD: true
+AT: true
+AU: true
+BD: true
+BE: true
+BG: true
+BT: true
+BY: true
+CA: true
+CH: true
+CN: true
+CY: true
+CZ: true
+DE: true
+DK: true
+EE: true
+ES: true
+FI: true
+FR: true
+GB: true
+GR: true
+HK: true
+HR: true
+HU: true
+IE: true
+IL: true
+IN: true
+IS: true
+IT: true
+JP: true
+KR: true
+LA: true
+LB: true
+LI: true
+LK: true
+LT: true
+LU: true
+LV: true
+MC: true
+MD: true
+ME: true
+MM: true
+MO: true
+MT: true
+MY: true
+NL: true
+'NO': true
+NP: true
+NZ: true
+PK: true
+PL: true
+PT: true
+RO: true
+RU: true
+SE: true
+SG: true
+SI: true
+SK: true
+SM: true
+TH: true
+TR: true
+TW: true
+UA: true
+US: true
+UZ: true
+VN: true
+VU: true
+ZA: true
+
+# these only maybe/sometimes (Oceania, Cambodia, North Korea):
+BN: true
+ID: true
+KH: true
+KP: true
+PG: true
+PH: true
+TL: true
+
+# unknown but all countries around have it (former Yugoslawia):
+AL: true
+BA: true
+MK: true
+RS-KM: true
+RS: true
+
+# unknown but region around it has it (southern states of former soviet union):
+GE: true
+KG: true
+KZ: true
+MN: true
+TJ: true
+
+# apparently mostly not in Latin America and in Arabic world and unknown in Africa

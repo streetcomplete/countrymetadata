@@ -1,0 +1,21 @@
+# Whether postboxes can have a royal cypher.
+#
+# Sources:
+# https://en.wikipedia.org/wiki/Pillar_box
+
+default: false
+
+# United Kingdom and some former nations of the British Empire, members of the Commonwealth of Nations and British overseas territories etc
+GB: true
+CY: true
+GI: true
+HK: true
+IE: true
+LK: true
+MT: true
+NZ: true
+
+# territories with agency postal services provided by the British Post Office
+BH: true
+KW: true
+MA: true
