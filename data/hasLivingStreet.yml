@@ -11,9 +11,8 @@ AD: true # https://www.mobilitat.ad/Uploads/reglament_dels_tipus_significat_dels
 AL: true
 AM: true # https://transinfo.am/pdd/6_2.html 5.21
 AO: true
-AM: true
-AU: true
 AT: true
+AU: true
 AZ: true
 BA: true
 BE: true
@@ -29,35 +28,37 @@ ES: true
 FI: true
 FR: true
 GB: true
-GE: true
+GE: true # https://test.autocar.ge/signs?limit=1&page=131
 GR: true
 HR: true
 HU: true
-IL: false # OSM wiki: "No special legal category corresponding to Living Streets exists in Ireland. Tag as residential with maxspeed of either 50 or 30 as indicated by signs"
+IE: false # OSM wiki: "No special legal category corresponding to Living Streets exists in Ireland. Tag as residential with maxspeed of either 50 or 30 as indicated by signs"
+IL: true # https://www.noam-roads.co.il/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8-%D7%A8%D7%97%D7%95%D7%91-%D7%9E%D7%A9%D7%95%D7%9C%D7%91/
 IS: true
 IT: false # OSM wiki: "Living streets do not exist in Italy. The 'sign Italian traffic signs - zona residenziale.svg' is defined as 'Zona residenziale', but no special rules corresponding to Living Streets exists. Tag as residential with maxspeed of either 50 or 30 as indicated by signs."
 KG: true
 KZ: true
-LV: true
 LS: true
 LT: true
 LU: true
+LV: true
+MD: true # https://de.wikipedia.org/wiki/Datei:Moldova_road_sign_5.54.1.svg
 ME: true # because all surrounding ones have it
 MG: true
 MK: true # because all surrounding ones have it
+MN: true  # https://mra.mn/wp-content/uploads/2021/05/Zam-Durem-Tusul.pdf page 53
 MU: true
 MW: true # because all surrounding ones have it
-MN: true
 MX: true
 MZ: true
 NA: true
-'NO': true
 NL: true
+'NO': true
 NZ: true
 PL: true
 RO: true
-RU: true
 RS: true
+RU: true
 SC: true
 SE: true
 SI: true

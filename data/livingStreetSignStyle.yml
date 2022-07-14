@@ -40,38 +40,39 @@ ES: vienna
 FI: vienna
 FR: france # https://fr.wikipedia.org/wiki/Zone_de_rencontre
 GB: vienna # https://en.wikipedia.org/wiki/Home_zone
-GE: russia
+GE: russia # https://test.autocar.ge/signs?limit=1&page=131
 GR: vienna
 HR: vienna
 HU: vienna
+IL: vienna # actually it's square, like the French one but without the bicycle  https://www.noam-roads.co.il/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8-%D7%A8%D7%97%D7%95%D7%91-%D7%9E%D7%A9%D7%95%D7%9C%D7%91/
 IS: vienna
-KZ: russia
 KG: russia
+KZ: russia
 LS: sadc
 LT: vienna
-LV: vienna
 LU: vienna
-MD: vienna
+LV: vienna
+MD: vienna # https://de.wikipedia.org/wiki/Datei:Moldova_road_sign_5.54.1.svg
 ME: vienna
 MG: sadc
 MK: vienna
-MN: russia
+MN: russia # https://mra.mn/wp-content/uploads/2021/05/Zam-Durem-Tusul.pdf page 53
 MU: sadc
 MW: sadc
 MX: mexico # https://wiki.openstreetmap.org/wiki/File:SP-E17a_Calle_residencial.png
 MZ: sadc
-NL: vienna
 NA: sadc
+NL: vienna
 'NO': vienna # https://no.wikipedia.org/wiki/Gatetun
 NZ: australia
 PL: vienna
 RO: vienna
-RU: russia # https://ru.wikipedia.org/wiki/Жилая_зона
 RS: vienna
+RU: russia # https://ru.wikipedia.org/wiki/Жилая_зона
 SC: sadc
-SK: vienna
-SI: vienna
 SE: vienna
+SI: vienna
+SK: vienna
 SZ: sadc
 TR: vienna
 TZ: sadc
