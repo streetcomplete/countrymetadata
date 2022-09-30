@@ -282,14 +282,9 @@ PF: [fr]
 PG: [tpi, en, ho]
 PH: [en, fil, es, ceb, ilo, hil]
 # similar situation to India; only Urdu and English are official, but there are some more widely used regional languages + some differences per province/territory
+# data on languages used https://www.pbs.gov.pk/sites/default/files/population/2017/tables/pakistan/Table11n.pdf
+# place names often signed in local language; village/admin division sign in Punjabi for example https://commons.wikimedia.org/wiki/File:Union_Council_121_office_sign_board_in_Chak_147-148_NB.jpg
 PK: [ur, en, pnb, sd, ps, skr, bal]
-PK-AJK: [ur, phr, pnb, gju, ks-Arab, hno, en]
-PK-BA: [ur, bal, ps, brh, skr, en]
-PK-GB: [ur, scl, bft, bsk, wbl, en]
-PK-KP: [ps, ur, hno, hnd, skr, khw, en]
-PK-IS: [ur, pnb, en]
-PK-PB: [pnb, ur, skr, en]
-PK-SD: [ur, sd, en]
 PL: [pl]
 PM: [fr]
 PN: [en, pih]
