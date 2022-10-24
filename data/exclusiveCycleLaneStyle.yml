@@ -1,0 +1,48 @@
+# Markings for exclusive cycle lanes
+# 
+# Unless stated otherwise, the lines are continuous and only painted towards the side of the car traffic.
+#
+# This list is not complete. Cycle lanes styles researched so far:
+# https://ent8r.github.io/blacklistr/?data=AT,AD,BD,BE,DE,US,ES,FR,GB,IE,LU,NL,DK,NO,SE,IS,FI,HU
+
+default: white
+# Butletí Oficial del Principat d´Andorra, Núm. 94 (1 de setembre de 2021), Article 4.1.5. Marques d’altres colors, 7. (page 10) -  https://www.mobilitat.ad/Uploads/reglament_marques_viaries_11_20210929115752_ca-ES.pdf
+AD: white on green
+# Straßenverkehrsordnung 1960, I. ABSCHNITT. Allgemeines. § 2. Begriffsbestimmungen. 7. Radfahrstreifen
+# https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011336
+# (it actually does not define how it is marked, only that it is marked)
+AT: white # https://www.fuerboeck.at/verkehrsrecht/bodenmarkierungen/radfahrsymbole/
+# BANGLADESH ROAD TRANSPORT AUTHORITY, TRAFFIC SIGNS MANUAL, LANE FOR (cycles and rickshaws) ONLY - Road Marking No F19
+# https://www.rhd.gov.bd/Documents/ConvDocs/Road%20Sign%20Manual%20Volume-1.pdf
+BD: white
+# Ministerieel besluit van 11 oktober 1976 houdende de minimum afmetingen en de bijzondere plaatsingsvoorwaarden van de verkeersteken, Hoofdstuk III. Wegmarkeringen, Artikel 16. Overlangse markeringen die een fietspad aanduiden
+# https://www.wegcode.be/nl/regelgeving/1976101105~j6siwtihko#nt4j1l7ivr
+# "De onderbroken streep bestaat uit trekken van ongeveer 0,15 m breedte en van ongeveer 1,25 m lengte, met tussenafstanden van ongeveer 1,25 m."
+BE: white dashes on both sides
+# Allgemeine Verwaltungsvorschrift zur Straßenverkehrs-Ordnung (VwV-StVO), §10
+# http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26012001_S3236420014.htm
+DE: white
+DK: white # https://www.google.de/maps/@55.6794357,12.5825915,3a,75y,357.22h,72.01t/data=!3m6!1e1!3m4!1sSm6e_2IJ17W7rSN2AYMeWQ!2e0!7i16384!8i8192
+ES: white # https://www.google.de/maps/@40.4287197,-3.7009802,3a,75y,271.76h,66.16t/data=!3m6!1e1!3m4!1sRvv1CfHq48gVjwHp-9aw0Q!2e0!7i16384!8i8192
+# 729/2018 Tieliikennelaki, Liite 4.1. Pituussuuntaiset tiemerkinnät, K2 Ajokaistaviiva
+# https://finlex.fi/fi/laki/alkup/2018/20180729
+FI: white dashes
+FR: white # https://www.google.de/maps/@48.852818,2.3674504,3a,75y,33.46h,64.09t/data=!3m6!1e1!3m4!1sait3Kj3mhuaT0PGthUYGQw!2e0!7i16384!8i8192
+GB: white # https://www.google.de/maps/@51.4965114,-0.1255504,3a,75y,346.83h,84.96t/data=!3m6!1e1!3m4!1sty8Zl-R_msKxFjnB702GBw!2e0!7i16384!8i8192
+HU: yellow dashes on both sides # OR yellow continuous line if it is not in-between parking and traffic lane - https://ume.kozut.hu/dokumentum/84#&gid=1&pid=26 + https://ume.kozut.hu/dokumentum/84#&gid=1&pid=27
+IE: white # https://www.google.de/maps/@53.3454328,-6.2764715,3a,75y,259.82h,69.72t/data=!3m6!1e1!3m4!1sMZKrp1RWKZo3HkILPqt1pg!2e0!7i16384!8i8192
+IS: white dashes # https://www.google.de/maps/@64.1129857,-21.9090438,3a,75y,256.97h,67.96t/data=!3m7!1e1!3m5!1sAF1QipNx2N8wkV-NhpTemG0dQLZuOCS_BmBTusEetIhX!2e10!3e11!7i5760!8i2880
+# The Gazette of the Democratic Socialist Republic of Sri Lanka, THE MOTOR TRAFFIC ACT (CHAPTER 203), Schedule V, RM-45
+# http://www.cmta.lk/downloads/1940-21_E%2012%20Nov%202015%20Traffic%20Signs.pdf
+LK: white
+LU: white # https://www.google.de/maps/@49.6083321,6.1445946,3a,75y,302.9h,74.76t/data=!3m6!1e1!3m4!1stQ_wInyzG0agTpG2hCSLGg!2e0!7i16384!8i8192
+NL: white dashes # https://www.google.de/maps/@52.3752845,4.8923123,3a,75y,58.57h,55.82t/data=!3m6!1e1!3m4!1sxBhJC3nRIibLNbKitrEK-Q!2e0!7i16384!8i8192
+# Kapittel 11. Vegoppmerking, § 22.De enkelte linjer og symboler, A. Langsgående oppmerking, 1008 Skillelinje
+# https://lovdata.no/forskrift/2005-10-07-1219/§22
+NO: white dashes # https://www.google.de/maps/@59.9180495,10.7557439,3a,75y,64.44h,81.36t/data=!3m6!1e1!3m4!1sPSuHGTH2rnvKcB2KO8U1mg!2e0!7i16384!8i8192
+# Vägmarkeringar, M5. Cykelfältslinje 
+# https://www.transportstyrelsen.se/sv/vagtrafik/Vagmarken/Vagmarkeringar/
+SV: white dots # https://www.google.de/maps/@59.3033108,18.0996546,3a,75y,325.05h,82.06t/data=!3m6!1e1!3m4!1sZ8VQn1Hv1M_WymVoYdGrnA!2e0!7i16384!8i8192
+# MUTCD, PART 9. TRAFFIC CONTROL FOR BICYCLE FACILITIES, 9C. Markings
+# https://mutcd.fhwa.dot.gov/htm/2009/part9/part9c.htm
+US: white

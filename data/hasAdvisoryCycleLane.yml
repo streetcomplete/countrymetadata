@@ -1,0 +1,13 @@
+# Whether the concept of an advisory cycle lane exists, 
+# i.e. a cycle lane whose use is not mandatory and on which cars can cross if they need to
+#
+# For sources, refer to the sources in exclusiveCycleLaneStyle.yml. The legislation does
+# simply not mention such a cycle lane.
+default: true
+BD: false
+BE: false
+FI: false
+FR: false
+IS: false
+NO: false
+SV: false
