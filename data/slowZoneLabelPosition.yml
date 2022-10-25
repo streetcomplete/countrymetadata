@@ -31,6 +31,7 @@ MO: top
 MU: bottom
 NL: top
 'NO': top
+PK: bottom # https://github.com/govdotpk/highway-code-book/blob/master/books/traffic-sign-urdu.pdf page 6
 PT: top
 RO: bottom
 RS: bottom

@@ -194,7 +194,7 @@ IN-MZ: [lus,en]
 # too many languages for such a small state...
 IN-NL: [en]
 IN-OR: [or]
-IN-PB: [pa]
+IN-PB: [pa, hi, en]
 IN-PY: [ta, en, ml, te]
 IN-RJ: [hi, en]
 IN-SK: [ne, en]
@@ -281,7 +281,10 @@ PE: [es, qu, ay]
 PF: [fr]
 PG: [tpi, en, ho]
 PH: [en, fil, es, ceb, ilo, hil]
-PK: [ur, en, pa]
+# similar situation to India; only Urdu and English are official, but there are some more widely used regional languages + some differences per province/territory
+# data on languages used https://www.pbs.gov.pk/sites/default/files/population/2017/tables/pakistan/Table11n.pdf
+# place names often signed in local language; village/admin division sign in Punjabi for example https://commons.wikimedia.org/wiki/File:Union_Council_121_office_sign_board_in_Chak_147-148_NB.jpg
+PK: [ur, en, pnb, sd, ps, skr, bal]
 PL: [pl]
 PM: [fr]
 PN: [en, pih]
