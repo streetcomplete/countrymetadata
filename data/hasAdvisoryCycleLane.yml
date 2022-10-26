@@ -3,12 +3,56 @@
 #
 # For sources, refer to the sources in exclusiveCycleLaneStyle.yml. The legislation does
 # simply not mention such a cycle lane.
-default: true
+default: false
+AD: false
+# Straßenverkehrsordnung 1960, I. ABSCHNITT. Allgemeines. § 2. Begriffsbestimmungen. 7a. Mehrzweckstreifen
+# https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011336
+# (it actually does not define how it is marked, only that it is marked)
+AT: true
+# https://nl.wikipedia.org/wiki/Fietsstrook#Fietssuggestiestrook_in_Belgi%C3%AB
+BE: true
+# Signalisationsverordnung Art. 74a
+# https://www.fedlex.admin.ch/eli/cc/1979/1961_1961_1961/de#art_74_a
+# (cycle lanes with dashed lines are proper cycle lanes mandatory to use)
+CH: false
+# Allgemeine Verwaltungsvorschrift zur Straßenverkehrs-Ordnung (VwV-StVO), §12
+# http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26012001_S3236420014.htm
+DE: true
+GB: true # https://www.google.de/maps/@51.4957567,-0.12058,3a,75y,344.59h,64.38t/data=!3m6!1e1!3m4!1sJTZbilG681QyqAGUN7XfFw!2e0!7i16384!8i8192
+IE: true # https://www.google.de/maps/@53.3436505,-6.2697345,3a,75y,236.1h,59.99t/data=!3m6!1e1!3m4!1sHgOi7Rf77rzqPHXb83exzQ!2e0!7i16384!8i8192
+IS: false
+# https://nl.wikipedia.org/wiki/Fietsstrook#Fietssuggestiestrook_in_Nederland
+NL: true # https://www.alblasserdamsnieuws.nl/wordpress/2011/09/08/wijkagent-%E2%80%9Cdit-busje-mag-hier-gewoon-staan%E2%80%9D/
+# Kapittel 11. Vegoppmerking, § 22.De enkelte linjer og symboler, A. Langsgående oppmerking, 1008 Skillelinje
+# https://lovdata.no/forskrift/2005-10-07-1219/§22
+# (dashed line is used for the normal cycle lane)
+NO: false
+# see http://wrower.pl/prawo/obowiazek-jazdy-po-drodze-dla-rowerow,3004.html
+# (cycle lanes with dashed lines are proper cycle lanes mandatory to use)
+PL: false
+# https://sv.wikipedia.org/wiki/Cykelf%C3%A4lt
+# dotted line is a proper cycle lane
+SV: false
+
+
+
+# TODO!!!!!! 
+# not confirmed yet! Only those should be included where the "dashed version" is a real downgrade from a "proper" cycle lane.
+# a strong indicator is when it is not mandatory for cyclists because something is usually only not mandatory for cyclists if
+# it is unsafe. Another indicator is if those are very slim
+
+
 BD: false
-BE: false
+# TP 179 - NAVRHOVÁNÍ KOMUNIKACÍ PRO CYKLISTY, 4 Úseky (intravilán), 4.3 Ochranný pruh pro cyklisty
+# https://pjpk.rsd.cz/data/USR_001_2_8_TP/TP_179_2017.pdf
+# (Ochranný pruh pro cyklisty have a lower space requirement)
+CS: true
 FI: false
 FR: false
-IS: false
+HU: true # https://ume.kozut.hu/dokumentum/84#&gid=1&pid=31
+IT: true # https://www.google.de/maps/@45.5105371,9.2241015,3a,75y,40.79h,69.17t/data=!3m6!1e1!3m4!1sFrlhOPPjtG8mD-LAWnhq5Q!2e0!7i16384!8i8192
+LI: true # (Liechtenstein has same legislation here as Switzerland)
+LU: true # https://www.google.de/maps/@49.6082321,6.1440486,3a,75y,242.68h,66.49t/data=!3m6!1e1!3m4!1s4qGuvaQf9e7ojaEIfDkGHQ!2e0!7i16384!8i8192
 MC: false # like France
-NO: false
-SV: false
+
+SI: true # https://www.google.de/maps/@46.0570317,14.5083088,3a,75y,191.37h,61.17t/data=!3m6!1e1!3m4!1sDZVcvLl4NDtPF3TALU9FLQ!2e0!7i16384!8i8192
