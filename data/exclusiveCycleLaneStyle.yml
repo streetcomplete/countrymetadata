@@ -9,7 +9,7 @@
 # just allows cars to cross over the lane at those points.
 #
 # This list is not complete. Cycle lanes styles researched so far:
-# https://ent8r.github.io/blacklistr/?data=AT,AD,BD,BE,DE,PL,NO,SE,FI,IS,IE,GB,NL,CH,ES,PT,EE,LT,SI,HU,RU,LK
+# https://ent8r.github.io/blacklistr/?data=AT,AD,BD,BE,DE,PL,NO,SE,FI,IS,IE,GB,NL,CH,ES,PT,EE,LT,SI,HU,RU,LK,IN,NP,MT
 
 default: white
 
