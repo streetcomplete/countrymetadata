@@ -15,6 +15,10 @@ AT: white dashes
 # (also sometimes red background, but increasingly ochre background)
 BE: ochre background
 
+# TP 179 - NAVRHOVÁNÍ KOMUNIKACÍ PRO CYKLISTY, 4 Úseky (intravilán), 4.2.2 Skladebnost - Ochranný pruh pro cyklisty
+# https://pjpk.rsd.cz/data/USR_001_2_8_TP/TP_179_2017.pdf
+CZ: white dashes
+
 # Allgemeine Verwaltungsvorschrift zur Straßenverkehrs-Ordnung (VwV-StVO), §12
 # http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26012001_S3236420014.htm
 DE: white dashes
@@ -49,9 +53,5 @@ NL: white dashes without pictogram # https://www.alblasserdamsnieuws.nl/wordpres
 # it is unsafe. Another indicator is if those are very slim
 
 
-# TP 179 - NAVRHOVÁNÍ KOMUNIKACÍ PRO CYKLISTY, 4 Úseky (intravilán), 4.3 Ochranný pruh pro cyklisty
-# https://pjpk.rsd.cz/data/USR_001_2_8_TP/TP_179_2017.pdf
-# (Ochranný pruh pro cyklisty have a lower space requirement)
-CS: white dashes
 IT: white dashes # https://www.google.de/maps/@45.5105371,9.2241015,3a,75y,40.79h,69.17t/data=!3m6!1e1!3m4!1sFrlhOPPjtG8mD-LAWnhq5Q!2e0!7i16384!8i8192
 LU: white dashes # https://www.google.de/maps/@49.6082321,6.1440486,3a,75y,242.68h,66.49t/data=!3m6!1e1!3m4!1s4qGuvaQf9e7ojaEIfDkGHQ!2e0!7i16384!8i8192

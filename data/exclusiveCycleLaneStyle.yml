@@ -9,7 +9,7 @@
 # just allows cars to cross over the lane at those points.
 #
 # This list is not complete. Cycle lanes styles researched so far:
-# https://ent8r.github.io/blacklistr/?data=AT,AD,BD,BE,DE,PL,NO,SE,FI,IS,IE,GB,NL,CH,ES,PT,EE,LT,SI,HU,RU,LK,IN,NP,MT
+# https://ent8r.github.io/blacklistr/?data=AT,AD,BD,BE,DE,PL,NO,SE,FI,IS,IE,GB,NL,CH,ES,PT,EE,LT,SI,HU,RU,LK,IN,NP,MT,CZ
 
 default: white
 
@@ -36,8 +36,10 @@ BE: white dashes on both sides
 # (exceptionally also a yellow continuous line, but yellow dashes are the norm)
 CH: yellow dashes
 
-# see https://cs.wikipedia.org/wiki/J%C3%ADzdn%C3%AD_pruh_pro_cyklisty
-CS: white
+# TP 179 - NAVRHOVÁNÍ KOMUNIKACÍ PRO CYKLISTY, 4 Úseky (intravilán), 4.2.2 Skladebnost - Vyhrazený pruh pro cyklisty
+# https://pjpk.rsd.cz/data/USR_001_2_8_TP/TP_179_2017.pdf
+# see also https://cs.wikipedia.org/wiki/J%C3%ADzdn%C3%AD_pruh_pro_cyklisty
+CZ: white
 
 # Allgemeine Verwaltungsvorschrift zur Straßenverkehrs-Ordnung (VwV-StVO), §10
 # http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26012001_S3236420014.htm
