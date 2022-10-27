@@ -60,7 +60,12 @@ LT: yellow # http://www.adcidl.com/pdf/Lithuanian-Road-Marking.pdf
 LV: yellow
 
 MC: yellow # same as France
-MN: yellow # http://www.adcidl.com/pdf/Mongolian-Road-Marking.pdf
+
+# МОНГОЛ УЛСЫН ЗАМЫН ХӨДӨЛГӨӨНИЙ ДҮРЭМ, ЗАМЫН ТЭМДЭГЛЭЛ, 1. Хэвтээ тэмдэглэл, 1.3 Хэвтээ тэмдэглэлийг дараах зориулалтаар хэрэглэнэ:, 1.4
+# https://mra.mn/wp-content/uploads/2021/05/Zam-Durem-Tusul.pdf
+# or http://www.adcidl.com/pdf/Mongolian-Road-Marking.pdf
+MN: yellow 
+
 MM: red-white on curb # they exist and it is likely they have the same meaning as in Thailand https://www.google.de/maps/@16.787366,96.1530465,3a,75y,201.2h,86.15t/data=!3m10!1e1!3m8!1sAF1QipMI8X0QYu8cLuaIOPuJ0SlTdnX2vcWqAvQUfhf4!2e10!3e11!7i7680!8i3840!9m2!1b1!2i34
 MY: double yellow # https://www.google.de/maps/@3.1644626,101.6961972,3a,24.6y,25.4h,87.78t/data=!3m9!1e1!3m7!1sqjIoph6BOUEeYNkine6I_Q!2e0!7i16384!8i8192!9m2!1b1!2i21
 
@@ -76,13 +81,17 @@ NL: yellow # https://en.wikipedia.org/wiki/Road_surface_marking#Netherlands
 # https://files.dre.pt/1s/2019/12/24501/0000200175.pdf (via: http://www.ansr.pt/Legislacao/RegulamentoSinalizacaoTransito/)
 PT: yellow
 
-RS: yellow # https://www.putevi-srbije.rs/images/pdf/regulativa/Pravilnik_o_saobracajnoj_signalizaciji.pdf (PRAVILNIK O SAOBRAĆAJNOJ SIGNALIZACIJI 2.3.6 V-16.1)
+# PRAVILNIK O SAOBRAĆAJNOJ SIGNALIZACIJI 2.3.6 V-16.1
+# https://www.putevi-srbije.rs/images/pdf/regulativa/Pravilnik_o_saobracajnoj_signalizaciji.pdf
+RS: yellow
 
 # ПДД РФ, 1. Горизонтальная разметка 1.4
 # https://avto-russia.ru/pdd/razmetka1.html
 RU: yellow
 
 SE: yellow # https://en.wikipedia.org/wiki/Road_signs_in_Sweden#Road_markings
+
+# https://en.wikipedia.org/wiki/Road_signs_in_Singapore
 SG: double yellow zig-zags # https://mothership.sg/2019/03/waiting-double-yellow-lines-singapore/
 
 # Pravilnik o prometni signalizaciji in prometni opremi na cestah, sign no 5332

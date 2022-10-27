@@ -63,7 +63,8 @@ ES: white # https://www.google.de/maps/@40.4287197,-3.7009802,3a,75y,271.76h,66.
 # https://finlex.fi/fi/laki/alkup/2018/20180729
 FI: white dashes
 
-FR: white # https://www.google.de/maps/@48.852818,2.3674504,3a,75y,33.46h,64.09t/data=!3m6!1e1!3m4!1sait3Kj3mhuaT0PGthUYGQw!2e0!7i16384!8i8192
+FR: white dashes # https://www.google.de/maps/@48.852818,2.3674504,3a,75y,33.46h,64.09t/data=!3m6!1e1!3m4!1sait3Kj3mhuaT0PGthUYGQw!2e0!7i16384!8i8192
+
 GB: white # https://www.google.de/maps/@51.4965114,-0.1255504,3a,75y,346.83h,84.96t/data=!3m6!1e1!3m4!1sty8Zl-R_msKxFjnB702GBw!2e0!7i16384!8i8192
 
 # Zakon o sigurnosti prometa na cestama, Članak 18)
@@ -79,7 +80,12 @@ IE: white # https://www.google.de/maps/@53.3454328,-6.2764715,3a,75y,259.82h,69.
 IN: white # The Nepali and Bangladeshi road sign manual look the same and mention that they have been developed together (with the Indian version), so extrapolating
 
 IS: white dashes # https://www.google.de/maps/@64.1129857,-21.9090438,3a,75y,256.97h,67.96t/data=!3m7!1e1!3m5!1sAF1QipNx2N8wkV-NhpTemG0dQLZuOCS_BmBTusEetIhX!2e10!3e11!7i5760!8i2880
-IT: while and yellow # https://www.google.de/maps/@45.4950892,9.1967487,3a,75y,319.82h,67.52t/data=!3m6!1e1!3m4!1sf62sUB3EtwcFkhyeFgr9Xg!2e0!7i16384!8i8192
+
+# Both white dashed (cars may pass through) and white+yellow are normal mandatory cycle lanes
+# https://www.google.de/maps/@45.5105371,9.2241015,3a,75y,40.79h,69.17t/data=!3m6!1e1!3m4!1sFrlhOPPjtG8mD-LAWnhq5Q!2e0!7i16384!8i8192
+# https://www.google.de/maps/@45.4950892,9.1967487,3a,75y,319.82h,67.52t/data=!3m6!1e1!3m4!1sf62sUB3EtwcFkhyeFgr9Xg!2e0!7i16384!8i8192
+IT: white 
+
 LI: yellow # (Liechtenstein has same legislation here as Switzerland)
 
 # The Gazette of the Democratic Socialist Republic of Sri Lanka, THE MOTOR TRAFFIC ACT (CHAPTER 203), Schedule V, RM-45
