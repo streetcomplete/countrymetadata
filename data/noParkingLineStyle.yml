@@ -22,7 +22,11 @@ AT: dashed yellow
 BD: yellow
 
 BE: dashed yellow # https://wegcode.be/wetteksten/secties/kb/wegcode/262-art75
-BY: dashed yellow # extrapolating from neighbours RU, UA, LT, LV
+
+# Rules of the Road, Annex 3, Chapter 2, 1.10
+# https://pdd.by/pdd/en/a3-p2/
+BY: dashed yellow
+
 CH: dashed yellow with Xs # https://de.wikipedia.org/wiki/Stra%C3%9Fenmarkierung#Grenzmarkierungen_in_der_Schweiz
 
 # Liiklusmärkide ja teemärgiste tähendused ning nõuded fooridele, 2. jagu. Teekattemärgised, § 25. Teekattemärgised ja nende tähendused, (17) Märgis 932
@@ -57,7 +61,10 @@ LK: yellow
 # or: http://www.adcidl.com/pdf/Lithuanian-Road-Marking.pdf
 LT: dashed yellow 
 
-LV: dashed yellow # http://www.adcidl.com/pdf/Latvian-Road-Marking.pdf
+# Ceļu satiksmes noteikumi, 27. Ceļa apzīmējumi, 292.23. 944.
+# https://likumi.lv/ta/id/274865-celu-satiksmes-noteikumi
+LV: dashed yellow
+
 MC: dashed yellow # same as France
 MM: yellow-white on curb # they exist and it is likely they have the same meaning as in Thailand
 MN: dashed yellow # http://www.adcidl.com/pdf/Mongolian-Road-Marking.pdf

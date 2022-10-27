@@ -12,6 +12,8 @@ AD: false
 # (it actually does not define how it is marked, only that it is marked)
 AT: true
 
+BA: false
+
 BD: false
 
 # https://nl.wikipedia.org/wiki/Fietsstrook#Fietssuggestiestrook_in_Belgi%C3%AB
@@ -61,6 +63,8 @@ LK: false
 
 # not mentioned in Kelių eismo taisyklių, 3 priedas
 LT: false
+
+LV: false
 
 # The Highway Code, §175 (page 45)
 # https://www.transport.gov.mt/Highway-eg.pdf-f5447

@@ -9,7 +9,7 @@
 # just allows cars to cross over the lane at those points.
 #
 # This list is not complete. Cycle lanes styles researched so far:
-# https://ent8r.github.io/blacklistr/?data=AT,AD,BD,BE,DE,PL,NO,SE,FI,IS,IE,GB,NL,CH,ES,PT,EE,LT,SI,HU,RU,LK,IN,NP,MT,CZ
+# https://ent8r.github.io/blacklistr/?data=AT,AD,BD,BE,DE,PL,NO,SE,FI,IS,IE,GB,NL,CH,ES,PT,EE,LT,SI,HU,RU,LK,IN,NP,MT,CZ,BA,LV
 
 default: white
 
@@ -21,6 +21,10 @@ AD: white on green
 # https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011336
 # (it actually does not define how it is marked, only that it is marked)
 AT: white # https://www.fuerboeck.at/verkehrsrecht/bodenmarkierungen/radfahrsymbole/
+
+# Zakon o osnovama bezbjednosti saobraćaja na putevima u Bosni i Hercegovini, Član 9, 7)
+# https://propisi.ks.gov.ba/sites/propisi.ks.gov.ba/files/zoobs.pdf
+BA: white # https://www.youtube.com/watch?v=NoO8OGArV2s
 
 # BANGLADESH ROAD TRANSPORT AUTHORITY, TRAFFIC SIGNS MANUAL, LANE FOR (cycles and rickshaws) ONLY - Road Marking No F19
 # https://www.rhd.gov.bd/Documents/ConvDocs/Road%20Sign%20Manual%20Volume-1.pdf
@@ -61,6 +65,9 @@ FI: white dashes
 
 FR: white # https://www.google.de/maps/@48.852818,2.3674504,3a,75y,33.46h,64.09t/data=!3m6!1e1!3m4!1sait3Kj3mhuaT0PGthUYGQw!2e0!7i16384!8i8192
 GB: white # https://www.google.de/maps/@51.4965114,-0.1255504,3a,75y,346.83h,84.96t/data=!3m6!1e1!3m4!1sty8Zl-R_msKxFjnB702GBw!2e0!7i16384!8i8192
+
+# Zakon o sigurnosti prometa na cestama, Članak 18)
+# https://www.zakon.hr/z/78/Zakon-o-sigurnosti-prometa-na-cestama
 HR: yellow # https://www.google.de/maps/@45.8061213,15.9722997,3a,75y,118.67h,62.19t/data=!3m6!1e1!3m4!1sfJFX3JAwYpYKkjfujlN8jA!2e0!7i13312!8i6656
 
 # Kerékpározható közutak tervezése, 4.3.1 Kerékpársáv (page 24-29)
@@ -80,6 +87,11 @@ LI: yellow # (Liechtenstein has same legislation here as Switzerland)
 LK: white
 
 LU: white # https://www.google.de/maps/@49.6083321,6.1445946,3a,75y,302.9h,74.76t/data=!3m6!1e1!3m4!1stQ_wInyzG0agTpG2hCSLGg!2e0!7i16384!8i8192
+
+# Ceļu satiksmes noteikumi, 1. Vispārīgie jautājumi, 2.29. velojosla
+# https://likumi.lv/ta/id/274865-celu-satiksmes-noteikumi
+LV: white
+
 MC: white dashes # like France
 
 # The Highway Code, §58 (page 19)
