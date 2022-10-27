@@ -38,6 +38,11 @@ MW: yellow # https://www.mapillary.com/app/?pKey=291189095843735
 MZ: yellow # https://www.mapillary.com/app/?lat=-25.963156716922&lng=32.585507975922&pKey=230597198616693&z=17
 NA: yellow # https://www.mapillary.com/app/?pKey=1009317856268752
 NE: white # https://www.mapillary.com/app/?Key=792129151431682
+
+# HIS MAJESTY’S GOVERNMENT OF NEPAL, TRAFFIC SIGNS MANUAL, EDGE OF CARRIAGEWAY, Road Markings No F9
+# https://www.tid.bagamati.gov.np/en/admin/downloads/17
+NP: yellow dashes
+
 OM: yellow
 RW: yellow # https://www.mapillary.com/app/?Key=218572413059386
 SE: short white dashes # https://en.wikipedia.org/wiki/Road_signs_in_Sweden#Road_markings - on motorways actually continuous line

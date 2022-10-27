@@ -1,0 +1,137 @@
+# Markings for exclusive cycle lanes, i.e. cycle lanes that are
+# 
+# - mandatory to use
+# - exclusive to cyclists
+# 
+# Unless stated otherwise, the lines are continuous and only painted towards the side of
+# the car traffic. Usually, the lines become dashed at crossings or if the lane is in-
+# between car lanes (or car lane and parking lane). This does not make them non-mandatory but
+# just allows cars to cross over the lane at those points.
+#
+# This list is not complete. Cycle lanes styles researched so far:
+# https://ent8r.github.io/blacklistr/?data=AT,AD,BD,BE,DE,PL,NO,SE,FI,IS,IE,GB,NL,CH,ES,PT,EE,LT,SI,HU,RU,LK,IN,NP,MT,CZ,BA,LV
+
+default: white
+
+# Butletí Oficial del Principat d´Andorra, Núm. 94 (1 de setembre de 2021), Article 4.1.5. Marques d’altres colors, 7. (page 10) - 
+# https://www.mobilitat.ad/Uploads/reglament_marques_viaries_11_20210929115752_ca-ES.pdf
+AD: white on green
+
+# Straßenverkehrsordnung 1960, I. ABSCHNITT. Allgemeines. § 2. Begriffsbestimmungen. 7. Radfahrstreifen
+# https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011336
+# (it actually does not define how it is marked, only that it is marked)
+AT: white # https://www.fuerboeck.at/verkehrsrecht/bodenmarkierungen/radfahrsymbole/
+
+# Zakon o osnovama bezbjednosti saobraćaja na putevima u Bosni i Hercegovini, Član 9, 7)
+# https://propisi.ks.gov.ba/sites/propisi.ks.gov.ba/files/zoobs.pdf
+BA: white # https://www.youtube.com/watch?v=NoO8OGArV2s
+
+# BANGLADESH ROAD TRANSPORT AUTHORITY, TRAFFIC SIGNS MANUAL, LANE FOR (cycles and rickshaws) ONLY - Road Marking No F19
+# https://www.rhd.gov.bd/Documents/ConvDocs/Road%20Sign%20Manual%20Volume-1.pdf
+BD: white
+
+# Ministerieel besluit van 11 oktober 1976 houdende de minimum afmetingen en de bijzondere plaatsingsvoorwaarden van de verkeersteken, Hoofdstuk III. Wegmarkeringen, Artikel 16. Overlangse markeringen die een fietspad aanduiden
+# https://www.wegcode.be/nl/regelgeving/1976101105~j6siwtihko#nt4j1l7ivr
+# "De onderbroken streep bestaat uit trekken van ongeveer 0,15 m breedte en van ongeveer 1,25 m lengte, met tussenafstanden van ongeveer 1,25 m."
+BE: white dashes on both sides
+
+# Signalisationsverordnung Art. 74a
+# https://www.fedlex.admin.ch/eli/cc/1979/1961_1961_1961/de#art_74_a
+# (exceptionally also a yellow continuous line, but yellow dashes are the norm)
+CH: yellow dashes
+
+# TP 179 - NAVRHOVÁNÍ KOMUNIKACÍ PRO CYKLISTY, 4 Úseky (intravilán), 4.2.2 Skladebnost - Vyhrazený pruh pro cyklisty
+# https://pjpk.rsd.cz/data/USR_001_2_8_TP/TP_179_2017.pdf
+# see also https://cs.wikipedia.org/wiki/J%C3%ADzdn%C3%AD_pruh_pro_cyklisty
+CZ: white
+
+# Allgemeine Verwaltungsvorschrift zur Straßenverkehrs-Ordnung (VwV-StVO), §10
+# http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26012001_S3236420014.htm
+DE: white
+
+DK: white # https://www.google.de/maps/@55.6794357,12.5825915,3a,75y,357.22h,72.01t/data=!3m6!1e1!3m4!1sSm6e_2IJ17W7rSN2AYMeWQ!2e0!7i16384!8i8192
+
+# Liiklusmärkide ja teemärgiste tähendused ning nõuded fooridele, lisa 10
+# https://www.riigiteataja.ee/akt/103032011006 + https://www.riigiteataja.ee/aktilisa/1030/3201/1006/MKM_22022011_M12-lisa10.pdf
+EE: white
+
+# Real Decreto Legislativo 6/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, Art 74-79
+# see https://reconstruccionaccidentestrafico.com/vias-ciclistas-definicion-legal-normativa-y-prioridad-de-paso-respecto-a-otros-vehiculos-y-a-peatones/
+ES: white # https://www.google.de/maps/@40.4287197,-3.7009802,3a,75y,271.76h,66.16t/data=!3m6!1e1!3m4!1sRvv1CfHq48gVjwHp-9aw0Q!2e0!7i16384!8i8192
+
+# 729/2018 Tieliikennelaki, Liite 4.1. Pituussuuntaiset tiemerkinnät, K2 Ajokaistaviiva
+# https://finlex.fi/fi/laki/alkup/2018/20180729
+FI: white dashes
+
+FR: white dashes # https://www.google.de/maps/@48.852818,2.3674504,3a,75y,33.46h,64.09t/data=!3m6!1e1!3m4!1sait3Kj3mhuaT0PGthUYGQw!2e0!7i16384!8i8192
+
+GB: white # https://www.google.de/maps/@51.4965114,-0.1255504,3a,75y,346.83h,84.96t/data=!3m6!1e1!3m4!1sty8Zl-R_msKxFjnB702GBw!2e0!7i16384!8i8192
+
+# Zakon o sigurnosti prometa na cestama, Članak  2. (1) 18), Članak 112. (1)
+# https://narodne-novine.nn.hr/clanci/sluzbeni/2008_06_67_2224.html
+# https://narodne-novine.nn.hr/clanci/sluzbeni/2022_07_85_1288.html
+# Pravilnik o biciklističkoj infrastrukturi, Članak 40., 48.
+# https://narodne-novine.nn.hr/clanci/sluzbeni/2016_03_28_803.html
+HR: yellow # https://www.google.de/maps/@45.8090029,15.971595,3a,75y,243.6h,51.8t/data=!3m6!1e1!3m4!1skNmcpBP1iJdD5J_2ZGqEhQ!2e0!7i13312!8i6656
+
+# Kerékpározható közutak tervezése, 4.3.1 Kerékpársáv (page 24-29)
+# https://ume.kozut.hu/dokumentum/84#&gid=1&pid=25
+HU: yellow
+
+IE: white # https://www.google.de/maps/@53.3454328,-6.2764715,3a,75y,259.82h,69.72t/data=!3m6!1e1!3m4!1sMZKrp1RWKZo3HkILPqt1pg!2e0!7i16384!8i8192
+
+IN: white # The Nepali and Bangladeshi road sign manual look the same and mention that they have been developed together (with the Indian version), so extrapolating
+
+IS: white dashes # https://www.google.de/maps/@64.1129857,-21.9090438,3a,75y,256.97h,67.96t/data=!3m7!1e1!3m5!1sAF1QipNx2N8wkV-NhpTemG0dQLZuOCS_BmBTusEetIhX!2e10!3e11!7i5760!8i2880
+
+# Both white dashed (cars may pass through) and white+yellow are normal mandatory cycle lanes
+# https://www.google.de/maps/@45.5105371,9.2241015,3a,75y,40.79h,69.17t/data=!3m6!1e1!3m4!1sFrlhOPPjtG8mD-LAWnhq5Q!2e0!7i16384!8i8192
+# https://www.google.de/maps/@45.4950892,9.1967487,3a,75y,319.82h,67.52t/data=!3m6!1e1!3m4!1sf62sUB3EtwcFkhyeFgr9Xg!2e0!7i16384!8i8192
+IT: white 
+
+LI: yellow # (Liechtenstein has same legislation here as Switzerland)
+
+# The Gazette of the Democratic Socialist Republic of Sri Lanka, THE MOTOR TRAFFIC ACT (CHAPTER 203), Schedule V, RM-45
+# http://www.cmta.lk/downloads/1940-21_E%2012%20Nov%202015%20Traffic%20Signs.pdf
+LK: white
+
+LU: white # https://www.google.de/maps/@49.6083321,6.1445946,3a,75y,302.9h,74.76t/data=!3m6!1e1!3m4!1stQ_wInyzG0agTpG2hCSLGg!2e0!7i16384!8i8192
+
+# Ceļu satiksmes noteikumi, 1. Vispārīgie jautājumi, 2.29. velojosla
+# https://likumi.lv/ta/id/274865-celu-satiksmes-noteikumi
+LV: white
+
+MC: white dashes # like France
+
+# The Highway Code, §58 (page 19)
+# https://www.transport.gov.mt/Highway-eg.pdf-f5447
+MT: white # https://www.google.de/maps/@35.9279198,14.4162233,3a,75y,359.65h,66.53t/data=!3m6!1e1!3m4!1s2PyL10xEg4u6Q8dfOvoxLw!2e0!7i13312!8i6656
+
+NL: white dashes # https://www.google.de/maps/@52.3752845,4.8923123,3a,75y,58.57h,55.82t/data=!3m6!1e1!3m4!1sxBhJC3nRIibLNbKitrEK-Q!2e0!7i16384!8i8192
+
+# Kapittel 11. Vegoppmerking, § 22.De enkelte linjer og symboler, A. Langsgående oppmerking, 1008 Skillelinje
+# https://lovdata.no/forskrift/2005-10-07-1219/§22
+NO: white dashes # https://www.google.de/maps/@59.9180495,10.7557439,3a,75y,64.44h,81.36t/data=!3m6!1e1!3m4!1sPSuHGTH2rnvKcB2KO8U1mg!2e0!7i16384!8i8192
+
+# cycle lanes are not explicitly mentioned at all in HIS MAJESTY’S GOVERNMENT OF NEPAL, TRAFFIC SIGNS MANUAL
+NP: white 
+
+# see http://wrower.pl/prawo/obowiazek-jazdy-po-drodze-dla-rowerow,3004.html
+PL: white # https://www.google.de/maps/@52.2231842,21.0020209,3a,75y,285.44h,80.17t/data=!3m6!1e1!3m4!1sSPGD5yaaIiIsxsH60AcUdA!2e0!7i16384!8i8192
+
+RU: white # https://www.google.de/maps/@55.7678422,37.615975,3a,75y,139.49h,75.01t/data=!3m6!1e1!3m4!1sFR-3CfK8CQIzGN3KvcptBw!2e0!7i13312!8i6656
+
+# Pravilnik o prometni signalizaciji in prometni opremi na cestah, sign no 5233
+# http://www.pisrs.si/Pis.web/pregledPredpisa?id=PRAV11505
+# the red background is only mandatory on roads with high traffic volume, see sign no 5232
+SI: white # https://www.google.de/maps/@46.0570317,14.5083088,3a,75y,191.37h,61.17t/data=!3m6!1e1!3m4!1sDZVcvLl4NDtPF3TALU9FLQ!2e0!7i16384!8i8192
+
+# Vägmarkeringar, M5. Cykelfältslinje 
+# https://www.transportstyrelsen.se/sv/vagtrafik/Vagmarken/Vagmarkeringar/
+# https://sv.wikipedia.org/wiki/Cykelf%C3%A4lt
+# dotted line is a proper cycle lane
+SV: white dots # https://www.google.de/maps/@59.3033108,18.0996546,3a,75y,325.05h,82.06t/data=!3m6!1e1!3m4!1sZ8VQn1Hv1M_WymVoYdGrnA!2e0!7i16384!8i8192
+
+# MUTCD, PART 9. TRAFFIC CONTROL FOR BICYCLE FACILITIES, 9C. Markings
+# https://mutcd.fhwa.dot.gov/htm/2009/part9/part9c.htm
+US: white

@@ -27,7 +27,11 @@ HR: true # http://www.adcidl.com/pdf/Croatian-Road-Traffic-Signs.pdf
 IT: false # https://commons.wikimedia.org/wiki/Old_road_signs_of_Italy not used anymore
 KH: true # https://en.wikipedia.org/wiki/Road_signs_in_Cambodia
 LA: true # https://en.wikipedia.org/wiki/Road_signs_in_Laos
-LK: true # http://www.cmta.lk/downloads/1940-21_E%2012%20Nov%202015%20Traffic%20Signs.pdf
+
+# The Gazette of the Democratic Socialist Republic of Sri Lanka. THE MOTOR TRAFFIC ACT (CHAPTER 203), sign no PHS-25, PHS-26
+# http://www.cmta.lk/downloads/1940-21_E%2012%20Nov%202015%20Traffic%20Signs.pdf 
+LK: true
+
 LT: true # https://en.wikipedia.org/wiki/Road_signs_in_Lithuania
 LV: true # https://commons.wikimedia.org/wiki/Category:Diagrams_of_prohibitory_road_signs_of_Latvia
 MA: true # http://www.adcidl.com/pdf/Macau-Road-Traffic-Signs.pdf
@@ -38,7 +42,11 @@ KG: true # https://en.wikipedia.org/wiki/Road_signs_in_Kyrgyzstan
 KZ: true # https://it.wikipedia.org/wiki/Segnaletica_stradale_in_Kazakistan
 PL: true # https://en.wikipedia.org/wiki/Road_signs_in_Poland
 RO: true # https://commons.wikimedia.org/wiki/Category:Diagrams_of_prohibitory_road_signs_of_Romania
-RS: true # https://www.putevi-srbije.rs/images/pdf/regulativa/Pravilnik_o_saobracajnoj_signalizaciji.pdf
+
+# PRAVILNIK O SAOBRAĆAJNOJ SIGNALIZACIJI, 1.2. Znakovi izričitih naredbi, Član 25 36) + 37)
+# https://www.putevi-srbije.rs/images/pdf/regulativa/Pravilnik_o_saobracajnoj_signalizaciji.pdf
+RS: true
+
 RU: true # https://en.wikipedia.org/wiki/Road_signs_in_Russia
 SI: true # https://commons.wikimedia.org/wiki/Category:Diagrams_of_prohibitory_road_signs_of_Slovenia
 SK: true # https://it.wikipedia.org/wiki/Segnaletica_stradale_in_Slovacchia
