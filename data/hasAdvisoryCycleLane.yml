@@ -120,3 +120,7 @@ SI: false # https://www.google.de/maps/@46.0570317,14.5083088,3a,75y,191.37h,61.
 # https://sv.wikipedia.org/wiki/Bygdev%C3%A4g
 # https://www.trafikverket.se/contentassets/772c6726ba794d80868931d997e4b8e5/folder_bygdevag_taftea_med-gdpr.pdf
 SV: true
+
+# Dashed Bicycle Lanes are currently experimented with at a few locations, but they are not approved as part of the MUTCD standard (yet) 
+# https://www.fhwa.dot.gov/environment/bicycle_pedestrian/guidance/mutcd/dashed_bike_lanes.cfm
+US: false
