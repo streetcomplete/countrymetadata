@@ -78,6 +78,13 @@ LK: false
 # not mentioned in Kelių eismo taisyklių, 3 priedas
 LT: false
 
+# I-02: ANGEBOTSSTREIFEN
+# https://veloplangen.lu/brochures/I-02.pdf
+# I-03: ANGEBOTSSTREIFEN MIT VERENGTER KERNFAHRBAHN
+# https://veloplangen.lu/brochures/I-03.pdf
+# (via https://veloplangen.lu/)
+LU: true
+
 LV: false
 
 MC: true # like France
