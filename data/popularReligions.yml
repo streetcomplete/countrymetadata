@@ -31,7 +31,11 @@ IN: [hindu, muslim, christian, buddhist, jain, sikh, bahai, animist]
 IN-CH: [hindu, sikh]
 IN-DL: [hindu, muslim, sikh]
 IN-HR: [hindu, muslim, sikh]
-IN-PB: [sikh, hindu]
+# links related to more info on why muslim, christian, jain added for IN-PB
+# https://en.wikipedia.org/wiki/Malerkotla#Demographics
+# https://theprint.in/india/how-christianity-is-growing-among-mazhabi-sikhs-valmiki-hindus-in-punjabs-villages/775047/
+# https://en.wikipedia.org/wiki/Bhabra#:~:text=Jainism%20has%20been%20present%20in,both%20Digambara%20and%20Swetambara%20monks.
+IN-PB: [sikh, hindu, muslim, christian, jain] 
 IQ: [muslim]
 IR: [muslim, bahai]
 JO: [muslim]
@@ -59,7 +63,7 @@ NL: [christian, muslim, jewish]
 NZ: [christian, hindu, buddhist]
 NP: [hindu, buddhist]
 OM: [muslim]
-PK: [muslim, hindu, christian, animist]
+PK: [muslim, hindu, christian, sikh, animist] # info about Sikhism in Pakistan https://psgpc.com.pk/who-we-are/
 PS: [muslim, jewish]
 PT: [christian, jewish, muslim]
 QA: [muslim]

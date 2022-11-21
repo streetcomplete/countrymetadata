@@ -4,14 +4,14 @@
 #
 # 1. Statewide official (used by government) language(s)
 #
-# 2. Spoken trade languages / lingua franca(s) if the official language(s) do not do the job.
+# 2. Written trade languages / lingua franca(s) if the official language(s) do not do the job.
 #    This is often the case in Africa where the official language is e.g. French but the majority
 #    of the (rural) population doesn't speak it.
 #
-# 3. Spoken national majority languages in mother tongue by importance,
+# 3. Written national majority languages in mother tongue by importance,
 #    such as Catalan, Galician, Asturian etc. in Spain.
 #
-# 4. languages spoken by a clear minority are only included if it spoken by the majority in their
+# 4. languages written by a clear minority are only included if it spoken by the majority in their
 #    region and enjoys some official recognition (i.e. language used on signs) there
 #
 # Sources:
@@ -127,7 +127,7 @@ FI: [fi, sv]
 FJ: [en, fj, hif]
 FK: [en]
 FM: [en, chk, pon]
-FO: [fo, dk]
+FO: [fo, da]
 FR: [fr]
 GA: [fr, fan]
 GB: [en]
@@ -194,7 +194,7 @@ IN-MZ: [lus,en]
 # too many languages for such a small state...
 IN-NL: [en]
 IN-OR: [or]
-IN-PB: [pa]
+IN-PB: [pa, hi, en]
 IN-PY: [ta, en, ml, te]
 IN-RJ: [hi, en]
 IN-SK: [ne, en]
@@ -281,7 +281,10 @@ PE: [es, qu, ay]
 PF: [fr]
 PG: [tpi, en, ho]
 PH: [en, fil, es, ceb, ilo, hil]
-PK: [ur, en, pa]
+# similar situation to India; only Urdu and English are official, but there are some more widely used regional languages + some differences per province/territory
+# data on languages used https://www.pbs.gov.pk/sites/default/files/population/2017/tables/pakistan/Table11n.pdf
+# place names often signed in local language; village/admin division sign in Punjabi for example https://commons.wikimedia.org/wiki/File:Union_Council_121_office_sign_board_in_Chak_147-148_NB.jpg
+PK: [ur, en, pnb, sd, ps, skr, bal]
 PL: [pl]
 PM: [fr]
 PN: [en, pih]

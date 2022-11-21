@@ -46,6 +46,11 @@ MK: [international]
 MM: [en]
 MO: [en]
 OM: [en]
+PK-AJK: [phr, gju, ks-Arab, hno, doi] # https://en.wikipedia.org/wiki/Azad_Kashmir#Languages
+PK-BA: [brh] # https://en.wikipedia.org/wiki/Balochistan,_Pakistan#Languages_and_ethnicities
+PK-GB: [scl, bft, bsk, wbl] # https://en.wikipedia.org/wiki/Gilgit-Baltistan#Languages
+PK-KP: [hno, hnd, khw] # https://en.wikipedia.org/wiki/Khyber_Pakhtunkhwa
+PK-PB: [bgq, doi, phr, hno, hnd] # https://en.wikipedia.org/wiki/Punjab,_Pakistan#Languages
 QA: [en]
 SA: [en]
 SY: [en]
