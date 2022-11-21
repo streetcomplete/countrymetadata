@@ -32,6 +32,11 @@ CZ: true
 # http://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26012001_S3236420014.htm
 DE: true
 
+# 2 minus 1 veje
+# https://da.wikipedia.org/wiki/2-minus-1-vej
+# https://www.vejdirektoratet.dk/udgivelse/2-minus-1-veje
+DK: true
+
 # Liiklusmärkide ja teemärgiste tähendused ning nõuded fooridele, lisa 10
 # https://www.riigiteataja.ee/akt/103032011006 + https://www.riigiteataja.ee/aktilisa/1030/3201/1006/MKM_22022011_M12-lisa10.pdf
 # (cycle lanes with dashed lines are proper cycle lanes mandatory to use)
@@ -111,6 +116,11 @@ RU: false
 # (dashed line is used for the normal cycle lane)
 SI: false # https://www.google.de/maps/@46.0570317,14.5083088,3a,75y,191.37h,61.17t/data=!3m6!1e1!3m4!1sDZVcvLl4NDtPF3TALU9FLQ!2e0!7i16384!8i8192
 
-# https://sv.wikipedia.org/wiki/Cykelf%C3%A4lt
-# (dotted line is a proper cycle lane)
-SV: false
+# Bygdeväg eller bymiljöväg
+# https://sv.wikipedia.org/wiki/Bygdev%C3%A4g
+# https://www.trafikverket.se/contentassets/772c6726ba794d80868931d997e4b8e5/folder_bygdevag_taftea_med-gdpr.pdf
+SV: true
+
+# Dashed Bicycle Lanes are currently experimented with at a few locations, but they are not approved as part of the MUTCD standard (yet) 
+# https://www.fhwa.dot.gov/environment/bicycle_pedestrian/guidance/mutcd/dashed_bike_lanes.cfm
+US: false
