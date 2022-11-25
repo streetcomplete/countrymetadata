@@ -1,0 +1,49 @@
+# Whether the concept of a cycle street exists. 
+default: false
+
+# https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&Dokumentnummer=NOR40147694
+AT: true
+
+# https://nl.wikipedia.org/wiki/Fietsstraat
+# https://commons.wikimedia.org/wiki/File:Belgian_road_sign_F111_nl.svg
+BE: true
+
+# https://www.google.de/maps/@47.4728215,9.7439089,3a,63.5y,19.79h,85.49t/data=!3m6!1e1!3m4!1sIWMZXyJJfKRFLNy9irvrZw!2e0!7i16384!8i8192
+CH: true
+
+# https://de.wikipedia.org/wiki/Fahrradstra%C3%9Fe
+# https://commons.wikimedia.org/wiki/File:Zeichen_244_-_Beginn_der_Fahrradstra%C3%9Fe,_StVO_1997.svg
+DE: true
+
+# Bekendtgørelse om vejafmærkning, Kapitel 2. Færdselstavler, E. Oplysningstavler og områdetavler, § 27., E47
+# https://www.retsinformation.dk/eli/lta/2021/2511#P27
+# https://da.m.wikipedia.org/wiki/Cykelgade
+DK: true
+
+# https://es.wikipedia.org/wiki/Ciclocalle
+ES: true
+
+# https://wiki.openstreetmap.org/wiki/Key:cyclestreet#Finland
+FI: true
+
+# https://fr.wikipedia.org/wiki/Rue_cyclable
+# similar sign layout as in Belgium
+FR: true
+
+# same legislation as Switzerland
+LI: true
+
+# https://veloplangen.lu/brochures/I-11.pdf
+# (via https://veloplangen.lu/)
+# https://commons.wikimedia.org/wiki/File:Luxembourg_road_sign_diagram_E,18a_(2018).svg
+LU: true
+
+# same legislation as France (I think)
+MC: true
+
+# has no legislative status, however it is in use with the same signs as in Belgium
+NL: true
+
+# https://sv.wikipedia.org/wiki/Cykelfartsgata
+# https://commons.wikimedia.org/wiki/File:SE_road_sign_E33.svg
+SV: true
