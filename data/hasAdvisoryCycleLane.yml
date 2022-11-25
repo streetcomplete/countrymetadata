@@ -46,6 +46,8 @@ EE: false
 # see https://reconstruccionaccidentestrafico.com/vias-ciclistas-definicion-legal-normativa-y-prioridad-de-paso-respecto-a-otros-vehiculos-y-a-peatones/
 ES: false
 
+# Apparently not. 2-1 roads exist, but as far as we know, they are "normal" cycle lanes combined with a 1-laned-road (because a bicycle pictogram is shown and the marking is the same as for other cycle lanes that allow other vehicles to cross thorugh).
+# https://moottori.fi/liikenne/jutut/mika-kylatie-yksikaistainen-ajonopeuksia-hillitseva-ratkaisu-oudoksuttaa/
 FI: false
 
 FR: true # https://duckduckgo.com/?q=chaucidou&t=ffab&iax=images&ia=images
