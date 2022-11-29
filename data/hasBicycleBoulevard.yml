@@ -1,29 +1,48 @@
 # Whether the concept of a cycle street exists. 
 default: false
 
-# https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&Dokumentnummer=NOR40147694
+# Straßenverkehrsordnung 1960, §67
+# https://www.ris.bka.gv.at/eli/bgbl/1960/159/P67/NOR40245685
+# https://commons.wikimedia.org/wiki/File:Hinweiszeichen_26.svg
 AT: true
 
-# https://nl.wikipedia.org/wiki/Fietsstraat
+# Koninklijk besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg, Titel II. Regels voor het gebruik van de openbare weg, Artikel 22novies. Verkeer in fietsstraten
+# https://www.wegcode.be/nl/regelgeving/1976101105~hra8v386pu#0qxtbauqtv
 # https://commons.wikimedia.org/wiki/File:Belgian_road_sign_F111_nl.svg
 BE: true
 
+# https://www.quebec.ca/transports/circulation-securite-routiere/regles-conseils-mode-transport/velo/velorue
+CA-QC: true
+
 # https://www.google.de/maps/@47.4728215,9.7439089,3a,63.5y,19.79h,85.49t/data=!3m6!1e1!3m4!1sIWMZXyJJfKRFLNy9irvrZw!2e0!7i16384!8i8192
+# https://radkompetenz.at/wp-content/uploads/2021/04/DA_Eder_Fahrradstrasse_final_klein.pdf page 71
 CH: true
 
-# https://de.wikipedia.org/wiki/Fahrradstra%C3%9Fe
+# Zákon č. 361/2000 Sb., HLAVA II. PROVOZ NA POZEMNÍCH KOMUNIKACÍCH, Díl 3. Pravidla provozu na pozemních komunikacích, Oddíl 2. Jízda vozidly ve zvláštních případech, Provoz v obytné, pěší a cyklistické zóně, § 39a
+# https://www.zakonyprolidi.cz/cs/2000-361#f2084556
+CZ: true
+
+# Straßenverkehrs-Ordnung (StVO), Anlage 2 (zu § 41 Absatz 1). Vorschriftzeichen, Abschnitt 5. Sonderwege, 23
+# https://www.gesetze-im-internet.de/stvo_2013/BJNR036710013.html
 # https://commons.wikimedia.org/wiki/File:Zeichen_244_-_Beginn_der_Fahrradstra%C3%9Fe,_StVO_1997.svg
 DE: true
 
 # Bekendtgørelse om vejafmærkning, Kapitel 2. Færdselstavler, E. Oplysningstavler og områdetavler, § 27., E47
 # https://www.retsinformation.dk/eli/lta/2021/2511#P27
+# https://commons.wikimedia.org/wiki/File:Denmark_road_sign_E47.svg
 # https://da.m.wikipedia.org/wiki/Cykelgade
 DK: true
+
+# Liiklusmärkide ja teemärgiste tähendused ning nõuded fooridele, Mõjualamärgid, § 11. Mõjualamärgid ja nende tähendused, Märk 385. Jalgrattasõidu ala
+# https://www.riigiteataja.ee/akt/103032011006
+EE: true
 
 # https://es.wikipedia.org/wiki/Ciclocalle
 ES: true
 
-# https://wiki.openstreetmap.org/wiki/Key:cyclestreet#Finland
+# Tieliikennelaki, 3 luku. Liikennesäännöt, 45 §. Liikennemerkillä osoitetulla pyöräkadulla ajaminen, pysäyttäminen ja pysäköinti
+# https://www.finlex.fi/fi/laki/ajantasa/2018/20180729#L3P45
+# https://commons.wikimedia.org/wiki/File:Finland_road_sign_E28.svg
 FI: true
 
 # https://fr.wikipedia.org/wiki/Rue_cyclable
@@ -35,6 +54,8 @@ LI: true
 
 # https://veloplangen.lu/brochures/I-11.pdf
 # (via https://veloplangen.lu/)
+# CODE DE LA ROUTE, CIRCULATION SUR TOUTES LES VOIES PUBLIQUES, V SIGNAUX D’INDICATION, 17bis Rue cyclable
+# https://legilux.public.lu/eli/etat/leg/code/route/20221023
 # https://commons.wikimedia.org/wiki/File:Luxembourg_road_sign_diagram_E,18a_(2018).svg
 LU: true
 
@@ -44,6 +65,12 @@ MC: true
 # has no legislative status, however it is in use with the same signs as in Belgium
 NL: true
 
+# Правила дорожного движения 2021 РФ., 24. Дополнительные требования к движению велосипедистов и водителей мопедов, 24.11 В велосипедной зоне
+# https://pdd17.ru/pdd/dopolnitelnye-trebovaniya-k-dvizheniyu-velosipedistov-i-voditelej-mopedov/
+RU: true
+
+# Trafikförordning (1998:1276), 8 kap. Bestämmelser för trafik på gågata, cykelgata och i gångfartsområde m.m. , 1 a §
+# https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276#K8
 # https://sv.wikipedia.org/wiki/Cykelfartsgata
 # https://commons.wikimedia.org/wiki/File:SE_road_sign_E33.svg
 SV: true
