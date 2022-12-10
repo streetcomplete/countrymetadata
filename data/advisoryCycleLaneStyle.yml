@@ -10,6 +10,11 @@
 # (it actually does not define how it is marked, only that it is marked)
 AT: white dashes
 
+# Austroads 2017, Cycling Aspects of Austroads Guides (Third edition), Report AP-G88-17, pg. 38
+# https://austroads.com.au/publications/road-design/ap-g88-17/media/AP-G88-17_Cyling_Aspects_of_Austroads_Guides.pdf
+# (markings determined by local jurisdictions, but typically indicated by dashed lines)
+AU: white dashes
+
 # https://nl.wikipedia.org/wiki/Fietsstrook#Fietssuggestiestrook_in_Belgi%C3%AB
 # https://rechtenkrant.be/wat-je-moet-weten-over-de-fietssuggestiestrook/
 # (also sometimes red background, but increasingly ochre background)
