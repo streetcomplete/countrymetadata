@@ -39,6 +39,9 @@ BB: [en]
 BD: [bn]
 # actually, Belgium has no nationwide official language
 BE: [nl, fr, de]
+BE-BRU: [fr, nl]
+BE-VLG: [nl]
+BE-WAL: [fr, de]
 # French is official, Mossi is most widely spoken language, Dyula and Fulflde are lingua francas, used as trading languages. There are many more locally spoken languages but these are the most important nationwide ones
 BF: [fr, mos, dyu, ff]
 BG: [bg]
