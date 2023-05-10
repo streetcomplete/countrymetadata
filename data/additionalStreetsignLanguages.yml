@@ -31,8 +31,8 @@ IL: [en] # https://commons.wikimedia.org/wiki/File:%D7%90%D7%9C%D7%A4%D7%A0%D7%9
 IN: [en]
 IN-PY: [fr]
 IR: [en] # https://commons.wikimedia.org/wiki/Category:Street_signs_in_Tehran
-# in South Tyrol only
-IT: [de]
+IT-88: [sc] # Sardinian in Sardinia
+IT-82: [scn] # https://en.wikipedia.org/wiki/Sicilian_language
 JP: [ja-Latn] # https://commons.wikimedia.org/wiki/File:Tokorozawa%26Shin-ome_kaido-2005-8-30.jpg
 JO: [en] # https://commons.wikimedia.org/wiki/File:20100924_madaba38.JPG
 KH: [en]
@@ -42,6 +42,7 @@ LA: [en, fr] # https://www.google.de/maps/@17.9651302,102.6057742,3a,17.3y,70.97
 LB: [fr]
 LK: [en] # https://www.google.de/maps/@6.9124955,79.8754351,3a,48.8y,215.69h,90.18t/data=!3m8!1e1!3m6!1sAF1QipMd9tjatI7-bnWf9ouYQOi5DhrL4PYZa-sY7ng!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMd9tjatI7-bnWf9ouYQOi5DhrL4PYZa-sY7ng%3Dw203-h100-k-no-pi0.48849252-ya108.93028-ro0.7708781-fo100!7i7680!8i3840
 MA: [fr,es]
+MC: [lij] # https://en.wikipedia.org/wiki/Ligurian_language
 MK: [international]
 MM: [en]
 MO: [en]
