@@ -1,0 +1,9 @@
+# Whether there exist any roads in the country on which there is no speed limit
+# that is, roads where vehicles may go as fast as they like
+# or, where maxspeed=none is a valid value
+
+# source: https://en.wikipedia.org/wiki/Speed_limits_by_country
+
+default: false
+DE: true
+IM: true
