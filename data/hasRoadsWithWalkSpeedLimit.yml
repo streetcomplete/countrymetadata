@@ -1,0 +1,17 @@
+# Whether there exist any roads in the country where the speed limit is walking speed
+# that is, where maxspeed=walk is a valid value
+
+# source: https://wiki.openstreetmap.org/wiki/Default_speed_limits
+
+default: false
+
+AT: true
+BA: true
+BE-BRU: true
+BE-VLG: true
+BE-WAL: true
+CH: true
+DE: true
+NO: true
+RS: true
+SW: true
