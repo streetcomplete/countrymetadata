@@ -12,7 +12,7 @@ AD: false
 # (it actually does not define how it is marked, only that it is marked)
 AT: true
 
-# Austroads 2017, Cycling Aspects of Austroads Guides (Third edition), Report AP-G88-17, pg. 38
+# Austroads 2017, Cycling Aspects of Austroads Guides (Third edition), Report AP-G88-17, 4.3.6 Advisory Treatments (pg. 38)
 # https://austroads.com.au/publications/road-design/ap-g88-17/media/AP-G88-17_Cyling_Aspects_of_Austroads_Guides.pdf
 # (advisory lanes are not legislated but do exist in the national standards, with their specific implementation left to local jurisdictions)
 AU: true
