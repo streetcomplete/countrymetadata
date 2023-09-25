@@ -127,8 +127,9 @@ RU: false
 
 # Pravilnik o prometni signalizaciji in prometni opremi na cestah, sign no 5233
 # http://www.pisrs.si/Pis.web/pregledPredpisa?id=PRAV11505
-# (dashed line is used for the normal cycle lane)
-SI: false # https://www.google.de/maps/@46.0570317,14.5083088,3a,75y,191.37h,61.17t/data=!3m6!1e1!3m4!1sDZVcvLl4NDtPF3TALU9FLQ!2e0!7i16384!8i8192
+# Article explaining usage of advisory lanes: https://vozimse.si/cpp/pojasnjujemo-crtkana-crta-ob-robu-vozisca/
+# (you can drive over dashed lines if you need to, but not over solid lines)
+SI: true # https://www.google.com/maps/@46.1564469,14.2986134,3a,61.7y,61.86h,73.61t/data=!3m6!1e1!3m4!1sn9Wee0H-EMF__Jfbyh2k2w!2e0!7i16384!8i8192?entry=ttu
 
 # Bygdeväg eller bymiljöväg
 # https://sv.wikipedia.org/wiki/Bygdev%C3%A4g
