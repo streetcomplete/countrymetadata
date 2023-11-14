@@ -13,7 +13,7 @@ HK: true
 IE: true
 LK: true
 MT: true
-NZ: true
+NZ: false # https://wiki.openstreetmap.org/w/index.php?title=Talk:StreetComplete/Quests&oldid=2599288#Quests_in_New_Zealand
 
 # territories with agency postal services provided by the British Post Office
 BH: true
