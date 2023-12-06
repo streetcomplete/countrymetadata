@@ -16,6 +16,10 @@ AS: [foot and inch, meter] # territory of the US
 BM: [meter, foot and inch] # British Overseas Territory
 BS: [foot and inch, meter] # mainly imperial units used
 BZ: [foot and inch, meter] # mainly imperial units used
+CA: [meter, foot and inch] # officially only metric, but on private property often imperial or both. e.g.:
+# https://maps.app.goo.gl/gXDJuKNp1mKnZvPV7
+# https://maps.app.goo.gl/os3mEMiusEAkLcvb6
+# see #21 for more
 DM: [foot and inch, meter] # metric system is introduced but the imperial system remains in common use
 FK: [meter, foot and inch] # British Overseas Territory
 FM: [foot and inch, meter] # mainly imperial units used
