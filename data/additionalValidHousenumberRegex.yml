@@ -4,13 +4,13 @@
 # regexper.com, regex-vis.com, coderstool.com/regex-visualizer, devtoolcafe.com/tools/regex, ... there are many
 
 # in Australia, the unit number (sometimes?) prefixes the housenumber proper e.g. 1/50, see https://github.com/streetcomplete/StreetComplete/issues/4196
-AU: ([\p{N}\p{L}]{1,2}\s?/\s?|\p{L}{1,2}\s?)?\p{N}{1,5}
-ES: s/n
-FR: \p{N}{1,4}\sbis
+AU: "([\p{N}\p{L}]{1,2}\s?/\s?|\p{L}{1,2}\s?)?\p{N}{1,5}"
+ES: "s/n"
+FR: "\p{N}{1,4}\sbis"
 # e.g. "N123E1234", "S1234", "N123-E1234", "N123 E1234", "E1234A"
 # As of 2024-01-29 this matches almost all of the addr:housenumber in WI that start with a directional letter.
 # see https://github.com/streetcomplete/countrymetadata/pull/22
-US-WI: ^([NSEW][0-9]{1,5}[ -]?){1,2}[A-Z]?$
+US-WI: "^([NSEW][0-9]{1,5}[ -]?){1,2}[A-Z]?$"
 # e.g. "1099A", "1806/127/2/6/15/48/2A", "73B/563B bis", "40bis/1", "35N/1C", "42/7bis", "L1004A",
 # see https://github.com/streetcomplete/StreetComplete/pull/3874
-VN: \p{L}?(?:\p{N}{1,4}(?:\s?(?:bis|ter|kép|\p{L}))?/)*\p{N}{1,4}(?:\s?(?:bis|ter|kép|\p{L})(?:\s(?:bis|ter|kép|\p{L}))?)?
+VN: "\p{L}?(?:\p{N}{1,4}(?:\s?(?:bis|ter|kép|\p{L}))?/)*\p{N}{1,4}(?:\s?(?:bis|ter|kép|\p{L})(?:\s(?:bis|ter|kép|\p{L}))?)?"
