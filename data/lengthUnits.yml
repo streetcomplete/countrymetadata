@@ -43,7 +43,7 @@ MS: [meter, foot and inch] # British Overseas Territory
 PR: [foot and inch, meter] # territory of the US
 PW: [foot and inch, meter] # same as Micronesia (FM) because it is part of it
 TC: [meter, foot and inch] # British Overseas Territory
-US: [foot and inch]
+US: [meter, foot and inch] # The U.S. does not mandate the exclusive use of customary units, the national policy favors metric adoption, and both systems coexist in various contexts.
 VC: [foot and inch, meter] # mainly imperial units used
 VG: [foot and inch, meter] # mainly imperial units used
 VI: [foot and inch, meter] # mainly imperial units used
