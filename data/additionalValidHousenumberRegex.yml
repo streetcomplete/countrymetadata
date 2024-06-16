@@ -6,7 +6,7 @@
 # in Australia, the unit number (sometimes?) prefixes the housenumber proper e.g. 1/50, see https://github.com/streetcomplete/StreetComplete/issues/4196
 AU: '([\p{N}\p{L}]{1,2}\s?/\s?|\p{L}{1,2}\s?)?\p{N}{1,5}'
 # see https://github.com/streetcomplete/StreetComplete/issues/5683#issuecomment-2163488046
-BG: '((бл\.\s?)?\p{N}{1,4}[\s-]?\p{Cyrillic}?)|((\p{N}{1,4}-){0,2}\p{N}{1,4})'
+BG: '((бл\.\s?)?\p{N}{1,4}[\s-]?\p{InCyrillic}?)|((\p{N}{1,4}-){0,2}\p{N}{1,4})'
 ES: 's/n'
 FR: '\p{N}{1,4}\sbis'
 # e.g. "N123E1234", "S1234", "N123-E1234", "N123 E1234", "E1234A"
