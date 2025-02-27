@@ -181,7 +181,7 @@ ID-SM: [id, min, mui, bbc, btd, bts, btm, jax, nia, akb, btx, kge]
 ID-AC: [id, ace]
 ID-YO: [id, jv]
 IE: [en, ga]
-IL: [heb, ar]
+IL: [he, ar]
 IM: [gv, en]
 # only Hindi and English are nationwide official languages, the rest only regional (but India is big. Putting English first because it is also the main trade language
 # so I include the most important ones, spoken by more than 5 mio people)
