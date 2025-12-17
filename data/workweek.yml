@@ -1,0 +1,34 @@
+# The FULL days in a workweek. I.e. if it is common to work on the last day of the work week half a day, it shall not count as a day in this list. This list is primarily used to determine the default weekday range of shop opening hours
+# Source: https://en.wikipedia.org/wiki/Workweek_and_weekend#Around_the_world (retrieved 2025-11-29)
+default: Mo-Fr
+AF: Su-Th
+BD: Su-Th
+BH: Su-Th
+BN: Mo-Th,Sa
+DJ: Sa-Th
+DZ: Su-Th
+EG: Su-Th
+GQ: Mo-Sa
+GR: Mo-Sa
+IL: Su-Th
+IQ: Su-Th
+IR: Sa-Th
+JO: Su-Th
+KP: Mo-Sa
+KW: Su-Th
+LY: Su-Th
+MV: Su-Th
+MX: Mo-Sa
+MY: Su-Th
+NP: Su-Fr
+OM: Su-Th
+PK: Mo-Sa
+PH: Mo-Sa
+PS: Sa-Th
+QA: Su-Th
+SA: Su-Th
+SD: Su-Th
+SO: Sa-Th
+SY: Su-Th
+UG: Mo-Sa
+YE: Su-Th
