@@ -1,0 +1,45 @@
+# list of currencies used by country
+#
+# The currency code format is ISO 4216, you can read more about that here:
+# https://en.wikipedia.org/wiki/ISO_4217
+# One source that could be a good starting point is this Wikipedia Article:
+# https://en.wikipedia.org/wiki/List_of_circulating_currencies
+
+AT: EUR
+AU: AUD
+BE: EUR
+BG: BGN
+CA: CAD
+CH: CHF
+CN: CNY
+CY: EUR
+CZ: CZK
+DE: EUR
+DK: DKK
+EE: EUR
+ES: EUR
+FI: EUR
+FR: EUR
+GB: GBP
+GR: EUR
+HR: EUR
+HU: HUF
+IE: EUR
+IN: INR
+IT: EUR
+JP: JPY
+LT: EUR
+LU: EUR
+LV: EUR
+MT: EUR
+NL: EUR
+NO: NOK
+PL: PLN
+PT: EUR
+RO: RON
+SE: SEK
+SI: EUR
+SK: EUR
+US: USD
+
+default: [EUR]

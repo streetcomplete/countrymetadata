@@ -1,0 +1,10 @@
+# list of currency symbols for a given currency code.
+# If there are no symbols available for the given currency, the abbreviation should be written down.
+# The format used for the currency code is the ISO 4217 and can be found here:
+# https://en.wikipedia.org/wiki/ISO_4217
+
+CZK: Kč
+EUR: €
+GBP: £
+JPY: ¥
+USD: $
