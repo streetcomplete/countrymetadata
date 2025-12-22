@@ -5,39 +5,38 @@
 # One source that could be a good starting point is this Wikipedia Article:
 # https://en.wikipedia.org/wiki/List_of_circulating_currencies
 
-AT: EUR
-AU: AUD
-BE: EUR
-BG: BGN
-CA: CAD
-CH: CHF
-CN: CNY
-CY: EUR
-CZ: CZK
-DE: EUR
-DK: DKK
-EE: EUR
-ES: EUR
-FI: EUR
-FR: EUR
-GB: GBP
-GR: EUR
-HR: EUR
-HU: HUF
-IE: EUR
-IN: INR
-IT: EUR
-JP: JPY
-LT: EUR
-LU: EUR
-LV: EUR
-MT: EUR
-NL: EUR
-NO: NOK
-PL: PLN
-PT: EUR
-RO: RON
-SE: SEK
-SI: EUR
-SK: EUR
-US: USD
+AT: [EUR, €]
+AU: [AUD, $] 
+BE: [EUR, €]
+BG: [BGN, lv.]
+CA: [CAD, $]
+CH: [CHF, Fr]
+CN: [CNY, ¥]
+CY: [EUR, €]
+CZ: [CZK, Kč]
+DE: [EUR, €]
+DK: [DKK, kr]
+ES: [EUR, €]
+FI: [EUR, €]
+FR: [EUR, €]
+GB: [GBP, £]
+GR: [EUR, €]
+HR: [EUR, €]
+HU: [HUF, Ft]
+IE: [EUR, €]
+IN: [INR, ₹]
+IT: [EUR, €]
+JP: [JPY, ¥]
+LT: [EUR, €]
+LU: [EUR, €]
+LV: [EUR, €]
+MT: [EUR, €]
+NL: [EUR, €]
+NO: [NOK, kr]
+PL: [PLN, zł]
+PT: [EUR, €]
+RO: [RON, Lei] # only used the plural form for now
+SE: [SEK, kr]
+SI: [EUR, €]
+SK: [EUR, €]
+US: [USD, $]
