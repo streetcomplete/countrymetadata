@@ -1,0 +1,67 @@
+# Common charging station socket types for passenger cars by country.
+#
+# The list is not exclusive. Entries define which socket types should be shown
+# first in the UI for the respective country.
+# Keys correspond to OSM socket:* values without the "socket:" prefix.
+# Sources: https://www.evexpert.eu/eshop1/knowledge-center/connector-types-for-ev-charging-around-the-world
+#          https://www.worldstandards.eu/cars/connector-types/
+#          https://www.power-sonic.com/ev-charging-connector-types/
+
+default: [type2, type2_combo, chademo, type1, type1_combo]
+# Europe (EU / EEA / UK) - mostly AC = Type 2, DC = CCS (type2_combo). CHAdeMO sometimes
+AT: [type2, type2_cable, type2_combo, chademo]
+BE: [type2, type2_cable, type2_combo, chademo]
+CH: [type2, type2_cable, type2_combo, chademo]
+CY: [type2, type2_cable, type2_combo]
+CZ: [type2, type2_cable, type2_combo, chademo]
+DE: [type2, type2_cable, type2_combo, chademo]
+DK: [type2, type2_cable, type2_combo, chademo]
+EE: [type2, type2_combo, chademo]
+ES: [type2, type2_cable, type2_combo, chademo]
+FI: [type2, type2_combo, chademo]
+FR: [type2, type2_cable, type2_combo, chademo]
+GB: [type2, type2_cable, type2_combo, chademo]
+GR: [type2, type2_combo, chademo]
+HR: [type2, type2_combo, chademo]
+HU: [type2, type2_combo, chademo]
+IE: [type2, type2_cable, type2_combo, chademo]
+IS: [type2, type2_combo, chademo]
+IT: [type2, type2_cable, type2_combo, chademo]
+LT: [type2, type2_combo, chademo]
+LU: [type2, type2_combo, chademo]
+LV: [type2, type2_combo, chademo]
+MT: [type2, type2_combo]
+NL: [type2, type2_cable, type2_combo, chademo]
+NO: [type2, type2_combo, chademo]
+PL: [type2, type2_combo, chademo]
+PT: [type2, type2_combo, chademo]
+RO: [type2, type2_combo, chademo]
+SE: [type2, type2_combo, chademo]
+SI: [type2, type2_combo, chademo]
+SK: [type2, type2_combo, chademo]
+
+# North America
+US: [type1, type1_combo, nacs, chademo]
+CA: [type1, type1_combo, nacs, chademo]
+MX: [type1, type1_combo, nacs, chademo]
+
+# East Asia
+JP: [type1, chademo, type1_combo]
+KR: [type1, type1_combo, chademo, nacs]
+CN: [gb_ac, gb_dc]
+
+# Oceania
+AU: [type2, type2_combo, chademo]
+NZ: [type2, type2_combo, chademo]
+
+# Middle East
+AE: [type2, type2_combo, chademo]
+IL: [type2, type2_combo, chademo]
+SA: [type2, type2_combo, chademo]
+
+# South America
+BR: [type2, type2_combo, chademo, type1]
+CL: [type2, type2_combo, chademo]
+
+# South Asia
+IN: [type2, type2_combo, chademo, type1]
