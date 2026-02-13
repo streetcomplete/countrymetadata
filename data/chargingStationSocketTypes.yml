@@ -9,10 +9,14 @@
 
 default: [type2, type2_cable, type2_combo, chademo, type1, type1_combo]
 # Europe (EU / EEA / UK) - mostly AC = Type 2, DC = CCS (type2_combo). CHAdeMO sometimes
+AD: [type2, type2_cable, type2_combo, chademo]
+AL: [type2, type2_cable, type2_combo, chademo]
 AT: [type2, type2_cable, type2_combo, chademo]
+BA: [type2, type2_cable, type2_combo, chademo]
 BE: [type2, type2_cable, type2_combo, chademo]
+BG: [type2, type2_cable, type2_combo, chademo]
 CH: [type2, type2_cable, type2_combo, chademo]
-CY: [type2, type2_cable, type2_combo]
+CY: [type2, type2_cable, type2_combo, chademo]
 CZ: [type2, type2_cable, type2_combo, chademo]
 DE: [type2, type2_cable, type2_combo, chademo]
 DK: [type2, type2_cable, type2_combo, chademo]
@@ -31,25 +35,32 @@ LI: [type2, type2_cable, type2_combo, chademo]
 LT: [type2, type2_cable, type2_combo, chademo]
 LU: [type2, type2_cable, type2_combo, chademo]
 LV: [type2, type2_cable, type2_combo, chademo]
-MT: [type2, type2_cable, type2_combo]
+MC: [type2, type2_cable, type2_combo, chademo]
+ME: [type2, type2_cable, type2_combo, chademo]
+MK: [type2, type2_cable, type2_combo, chademo]
+MT: [type2, type2_cable, type2_combo, chademo]
 NL: [type2, type2_cable, type2_combo, chademo]
 NO: [type2, type2_cable, type2_combo, chademo]
 PL: [type2, type2_cable, type2_combo, chademo]
 PT: [type2, type2_cable, type2_combo, chademo]
 RO: [type2, type2_cable, type2_combo, chademo]
+RS: [type2, type2_cable, type2_combo, chademo]
 SE: [type2, type2_cable, type2_combo, chademo]
 SI: [type2, type2_cable, type2_combo, chademo]
 SK: [type2, type2_cable, type2_combo, chademo]
+SM: [type2, type2_cable, type2_combo, chademo]
+VA: [type2, type2_cable, type2_combo, chademo]
+XK: [type2, type2_cable, type2_combo, chademo]
 
 # North America
-US: [type1, type1_combo, nacs, chademo]
 CA: [type1, type1_combo, nacs, chademo]
 MX: [type1, type1_combo, nacs, chademo]
+US: [type1, type1_combo, nacs, chademo]
 
 # East Asia
+CN: [gb_ac, gb_dc]
 JP: [type1, chademo, type1_combo]
 KR: [type1, type1_combo, chademo, nacs]
-CN: [gb_ac, gb_dc]
 
 # Oceania
 AU: [type2, type2_cable, type2_combo, chademo]
@@ -57,12 +68,16 @@ NZ: [type2, type2_cable, type2_combo, chademo]
 
 # Middle East
 AE: [type2, type2_cable, type2_combo, chademo]
+BH: [type2, type2_cable, type2_combo, chademo]
 IL: [type2, type2_cable, type2_combo, chademo]
+KW: [type2, type2_cable, type2_combo, chademo]
+OM: [type2, type2_cable, type2_combo, chademo]
+QA: [type2, type2_cable, type2_combo, chademo]
 SA: [type2, type2_cable, type2_combo, chademo]
 
 # South America
-BR: [type2, type2_cable, type2_combo, chademo, type1]
-CL: [type2, type2_cable, type2_combo, chademo]
+BR: [type2, type2_cable, type2_combo, chademo, type1, type1_combo]
+CL: [type2, type2_cable, type2_combo, chademo, type1, type1_combo]
 
 # South Asia
-IN: [type2, type2_cable, type2_combo, chademo, type1]
+IN: [type2, type2_cable, type2_combo, chademo, type1, type1_combo]
