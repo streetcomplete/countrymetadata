@@ -7,7 +7,7 @@
 #          https://www.worldstandards.eu/cars/connector-types/
 #          https://www.power-sonic.com/ev-charging-connector-types/
 
-default: [type2, type2_cable, type2_combo, chademo, type1, type1_combo]
+# default: [type2, type2_cable, type2_combo, chademo, type1, type1_combo]
 # Europe (EU / EEA / UK) - mostly AC = Type 2, DC = CCS (type2_combo). CHAdeMO sometimes
 AD: [type2, type2_cable, type2_combo, chademo]
 AL: [type2, type2_cable, type2_combo, chademo]
