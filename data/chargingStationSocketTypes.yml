@@ -64,8 +64,8 @@ MX: [type1, type1_combo, nacs, chademo]
 US: [nacs, type1, type1_combo, chademo]
 
 # East Asia
-CN: [gb_ac, gb_dc]
-JP: [type1, chademo, type1_combo]
+CN: [gb_ac, gb_dc, chaoji]
+JP: [chademo, type1, type1_combo]
 KR: [type1, type1_combo, chademo, nacs]
 
 # Oceania
@@ -73,17 +73,4 @@ AU: [type2, type2_cable, type2_combo, chademo]
 NZ: [type2, type2_cable, type2_combo, chademo]
 
 # Middle East
-AE: [type2, type2_cable, type2_combo, chademo]
-BH: [type2, type2_cable, type2_combo, chademo]
 IL: [type2, type2_cable, type2_combo, chademo]
-KW: [type2, type2_cable, type2_combo, chademo]
-OM: [type2, type2_cable, type2_combo, chademo]
-QA: [type2, type2_cable, type2_combo, chademo]
-SA: [type2, type2_cable, type2_combo, chademo]
-
-# South America
-BR: [type2, type2_cable, type2_combo, chademo, type1, type1_combo]
-CL: [type2, type2_cable, type2_combo, chademo, type1, type1_combo]
-
-# South Asia
-IN: [type2, type2_cable, type2_combo, chademo, type1, type1_combo]
