@@ -6,6 +6,7 @@
 # https://en.wikipedia.org/wiki/Comparison_of_European_road_signs
 # http://wiki.openstreetmap.org/wiki/Tag:highway%3Dliving_street
 # https://commons.wikimedia.org/wiki/Category:Diagrams_of_road_signs_by_country
+# https://en.wikipedia.org/wiki/Traffic_signs_in_post-Soviet_states
 default: false
 AD: true # https://www.mobilitat.ad/Uploads/reglament_dels_tipus_significat_dels_senyals_11_20210929115852_ca-ES.pdf page 44
 AL: true
@@ -19,7 +20,11 @@ BE: true
 BG: true
 BW: true
 BY: true
+CA: false
 CH: true
+CO: true # "Guía de cicloinfraestructura para ciudades colombianas" p.152 https://www.despacio.org/wp-content/uploads/2016/04/Guia-cicloinfraestructura-Colombia-20160413-ISBN%20digital.pdf
+CN: false
+CY: true
 CZ: true
 DE: true
 DK: true # https://www.retsinformation.dk/eli/lta/2017/1632 E51 Opholds- og legeområde
@@ -28,7 +33,7 @@ ES: true
 FI: true
 FR: true
 GB: true
-GE: true # https://test.autocar.ge/signs?limit=1&page=131
+GE: true
 GR: true
 HR: true
 HU: true
@@ -36,16 +41,19 @@ IE: false # OSM wiki: "No special legal category corresponding to Living Streets
 IL: true # https://www.noam-roads.co.il/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8-%D7%A8%D7%97%D7%95%D7%91-%D7%9E%D7%A9%D7%95%D7%9C%D7%91/
 IS: true
 IT: false # OSM wiki: "Living streets do not exist in Italy. The 'sign Italian traffic signs - zona residenziale.svg' is defined as 'Zona residenziale', but no special rules corresponding to Living Streets exists. Tag as residential with maxspeed of either 50 or 30 as indicated by signs."
+JP: false # OSM wiki: "No special legal category corresponding to Living Streets exists in Japan. "
 KG: true
 KZ: true
+LI: true # like Switzerland
 LS: true
 LT: true
 LU: true
 LV: true
+MC: true # like france
 MD: true # https://de.wikipedia.org/wiki/Datei:Moldova_road_sign_5.54.1.svg
-ME: true # because all surrounding ones have it
+ME: true # https://en.wikipedia.org/wiki/Road_signs_in_Montenegro
 MG: true
-MK: true # because all surrounding ones have it
+MK: true
 MN: true  # https://mra.mn/wp-content/uploads/2021/05/Zam-Durem-Tusul.pdf page 53
 MU: true
 MW: true # because all surrounding ones have it
@@ -56,6 +64,7 @@ NL: true
 'NO': true
 NZ: true
 PL: true
+PT: true
 RO: true
 RS: true
 RU: true
@@ -63,10 +72,15 @@ SC: true
 SE: true
 SI: true
 SK: true
+SM: false # like Italy
 SZ: true
+TJ: true
+TM: true
 TR: true
 TZ: true
 UA: true
+UZ: true
+VA: false # like Italy
 XK: true # because all surrounding ones have it
 ZA: true
 ZM: true

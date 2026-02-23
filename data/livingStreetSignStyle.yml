@@ -14,6 +14,7 @@
 # - france     - white on blue, white border, square, also shows a cylist
 # - australia  - black "Shared zone" with speed limit sign on white rectangular narrow/portrait with black border
 # - mexico     - same as vienna, but black on yellow
+# - columbia   - same as vienna, but black on white (with speed limit)
 #
 # In reality, each sign in each country looks slightly different, hence this is just a grouping by
 # general style.
@@ -32,6 +33,8 @@ BG: vienna
 BW: vienna
 BY: russia
 CH: vienna # https://de.wikipedia.org/wiki/Begegnungszone
+CO: columbia # https://commons.wikimedia.org/wiki/File:Colombia_road_sign_SIP-04.svg
+CY: vienna
 CZ: vienna
 DE: vienna
 DK: vienna # https://www.retsinformation.dk/eli/lta/2017/1632 E51 Opholds- og legeområde
@@ -40,7 +43,7 @@ ES: vienna
 FI: vienna
 FR: france # https://fr.wikipedia.org/wiki/Zone_de_rencontre
 GB: vienna # https://en.wikipedia.org/wiki/Home_zone
-GE: russia # https://test.autocar.ge/signs?limit=1&page=131
+GE: vienna
 GR: vienna
 HR: vienna
 HU: vienna
@@ -48,10 +51,12 @@ IL: vienna # actually it's square, like the French one but without the bicycle  
 IS: vienna
 KG: russia
 KZ: russia
+LI: vienna
 LS: sadc
 LT: vienna
 LU: vienna
 LV: vienna
+MC: france
 MD: vienna # https://de.wikipedia.org/wiki/Datei:Moldova_road_sign_5.54.1.svg
 ME: vienna
 MG: sadc
@@ -66,6 +71,7 @@ NL: vienna
 'NO': vienna # https://no.wikipedia.org/wiki/Gatetun
 NZ: australia
 PL: vienna
+PT: vienna
 RO: vienna
 RS: vienna
 RU: russia # https://ru.wikipedia.org/wiki/Жилая_зона
@@ -74,9 +80,12 @@ SE: vienna
 SI: vienna
 SK: vienna
 SZ: sadc
+TJ: russia
+TM: russia
 TR: vienna
 TZ: sadc
 UA: russia
+UZ: russia
 XK: vienna
 ZA: sadc
 ZM: sadc

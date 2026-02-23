@@ -2,43 +2,74 @@
 #
 # Sources:
 # https://en.wikipedia.org/wiki/advisory_speed_limit
-# https://en.wikipedia.org/wiki/Comparison_of_European_road_signs
+# https://commons.wikimedia.org/wiki/Comparison_of_European_road_signs:_Indication
+# https://en.wikipedia.org/wiki/Traffic_signs_in_post-Soviet_states
 # https://commons.wikimedia.org/wiki/Category:Advisory_speed_limit_road_signs
 
 default: false
+AD: true # like Spain
+AL: true # https://en.wikipedia.org/wiki/Road_signs_in_Albania
+AM: true # https://en.wikipedia.org/wiki/Road_signs_in_Armenia
 AT: false
+AU: true
+AZ: true # https://en.wikipedia.org/wiki/Road_signs_in_Azerbaijan
+BA: true
 BE: false
+BG: true
+BY: true
+CA: true
+CH: false
+CN: true
 CZ: true
 DK: true
 EE: true
+ES: true
 FI: true
 FR: true
-DE: false
+DE: false # sign was removed 2013
+GB: false # only together with warning sign
+GE: true # https://en.wikipedia.org/wiki/Road_signs_in_Georgia
 GR: true
+HK: true # https://en.wikipedia.org/wiki/File:Hong_Kong_road_sign_416.svg
+HR: true # https://en.wikipedia.org/wiki/Road_signs_in_Croatia
 HU: true
 IS: false
-IE: false
+IE: false # only together with warning sign
 IT: true
+JO: true # https://en.wikipedia.org/wiki/File:Jordan_road_sign_I%D9%A2%D9%A0_(45).svg
+JP: true
+KG: true
+KR: true
+KZ: true # https://en.wikipedia.org/wiki/Road_signs_in_Kazakhstan
+LI: false # like Switzerland
+LU: true
+LT: true
 LU: true
 LV: true # https://likumi.lv/ta/id/274865-celu-satiksmes-noteikumi 4.pielikums. Ceļa zīmes; 7. Virzienu rādītāji un informācijas zīmes; 725 Ieteicamais ātrums
+MC: true # like France
+MD: true # https://en.wikipedia.org/wiki/Road_signs_in_Moldova
+ME: true # https://en.wikipedia.org/wiki/Road_signs_in_Montenegro
+MK: true
+MO: true # https://en.wikipedia.org/wiki/File:Macau_road_sign_35.svg
+MN: true # https://en.wikipedia.org/wiki/Road_signs_in_Mongolia
+NL: true
 'NO': true
+NZ: true
+PH: true
 PL: false
 PT: true
 RO: true
+RS: true
 RU: true
-BY: true
-SK: true
-SI: true
-ES: true
 SE: true
-CH: false
+SI: true
+SK: false
+SM: true # like Italy
+TH: true
+TJ: true
+TM: true
+TR: false
 UA: true
-GB: true
-AU: true
-CA: true
-JP: true
-NZ: true
-PH: true
-KR: true
 US: true
-CN: true
+UZ: true
+VA: true # like Italy
