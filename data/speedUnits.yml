@@ -24,13 +24,12 @@ GG: [miles per hour, kilometers per hour] # British Crown Dependency
 GI: [miles per hour, kilometers per hour] # British Overseas Territory
 GS: [miles per hour, kilometers per hour] # British Overseas Territory
 GU: [miles per hour, kilometers per hour] # same as Micronesia (FM) because it is part of it
-GY: [kilometers per hour, miles per hour] # metric system has been introduced in 1982 but the imperial system is still used sometimes
 IM: [miles per hour, kilometers per hour] # British Crown Dependency
 JE: [miles per hour, kilometers per hour] # British Crown Dependency
 KN: [miles per hour, kilometers per hour]
 KY: [miles per hour, kilometers per hour] # mainly imperial units used
-LC: [miles per hour, kilometers per hour] # metric system is introduced but the imperial system remains in common use
-LR: [miles per hour, kilometers per hour] # imperial units are used officially but some signs are using the metric system
+LC: [kilometers per hour, miles per hour] # metric system is introduced but the imperial system remains in common use
+LR: [kilometers per hour, miles per hour] # imperial units are used officially but some signs are using the metric system
 MH: [miles per hour, kilometers per hour] # mainly imperial units used
 MM: [kilometers per hour, miles per hour] # Myanmar is converting to the metric system, although very slowly. https://en.wikipedia.org/wiki/Myanmar_units_of_measurement#Adoption_of_SI_(metric)_system
 MP: [miles per hour, kilometers per hour] # territory of the US
@@ -43,4 +42,4 @@ US: [miles per hour]
 VC: [miles per hour, kilometers per hour] # mainly imperial units used
 VG: [miles per hour, kilometers per hour] # mainly imperial units used
 VI: [miles per hour, kilometers per hour] # mainly imperial units used
-WS: [miles per hour, kilometers per hour] # Samoa started to convert to the metric system in 2014.
+WS: [kilometers per hour, miles per hour] # metric system mandated since 2016

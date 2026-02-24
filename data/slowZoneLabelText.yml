@@ -1,15 +1,22 @@
 # The label text seen on a slow zone (aka 30km/h-zone) sign.  No default. If not specified, there is
 # no label text on the sign.
 #
-# research notes in https://github.com/streetcomplete/StreetComplete/pull/3359
-AD: ZONA # https://www.mobilitat.ad/Uploads/reglament_dels_tipus_significat_dels_senyals_11_20210929115852_ca-ES.pdf page 44
+# sources:
+# https://en.wikipedia.org/wiki/Road_signs_in_the_European_microstates
+# https://commons.wikimedia.org/wiki/Comparison_of_European_road_signs:_Prohibitory
+# https://en.wikipedia.org/wiki/Traffic_signs_in_post-Soviet_states
+AD: ZONA
+AL: ZONA
 AM: ԹՈՏՒ
 AT: Zone
 AU: AREA
-BA: "ЗОНА ZONA"
+AZ: ZONA
+BA: "ЗОНА\nZONA"
 BE: ZONE
 BG: ЗОНА
+BY: ЗОНА
 CH: ZONE
+CN: 区域
 CZ: ZÓNA
 DE: ZONE
 DK: Zone
@@ -17,18 +24,25 @@ EE: ALA
 ES: ZONA
 FR: ZONE
 GB: ZONE
+GE: ZONE
 GR: ΠΕΡΙΟΧΗ
 HR: ZONA
 HU: ZÓNA
 IT: zona
-JP: "区域 ここあら"
+JP: 区域内
+KG: ЗОНА
+KZ: ЗОНА
 LI: ZONE
+LT: ZONA
 LU: ZONE
 LV: ZONA
+MC: ZONE
 MD: ZONA
+ME: "ЗОНА\nZONA"
 MK: ЗОНА
 MO: ZONA
 MU: ZONE
+MX: top
 NL: ZONE
 'NO': Sone
 PK: ZONE # https://github.com/govdotpk/highway-code-book/blob/master/books/traffic-sign-urdu.pdf page 6
@@ -38,4 +52,10 @@ RS: ЗОНА
 RU: ЗОНА
 SI: CONA
 SK: ZÓNA
+SM: zona
+TJ: Минтақа
+TM: ZONA
 UA: ЗОНА
+UZ: ZONA
+VA: zona
+XK: ZONA

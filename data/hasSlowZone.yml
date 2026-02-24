@@ -1,17 +1,21 @@
-# Whether the concept of a slow zone (aka 30 km/h zone) is known in this country. In a slow zone, no
-# repeater signs for the low speed limit are necessary. Instead, there'll be a sign that marks the
-# end of such a slow zone. Additional restrictions may apply depending on the legislation.
+# Whether the concept of a slow zone (aka 30 km/h zone) is known in this country. In a slow zone,
+# no repeater signs for the low speed limit are necessary. Instead, there'll be a sign that marks
+# the end of such a slow zone. Additional restrictions may apply depending on the legislation.
 #
-# see https://en.wikipedia.org/wiki/30_km/h_zone
 default: false
-# European countries, except Sweden
-AD: true
+AD: false # like Spain
+AL: true
+AM: true
 AT: true
+AU: true # https://commons.wikimedia.org/wiki/File:Australia_road_sign_R4-10_(20).svg
+AZ: true
 BA: true
 BE: true
-BG: true
+BG: true # https://github.com/streetcomplete/StreetComplete/pull/3359#issuecomment-1183052819
 BY: true
+CA: false # according to research, there are only "school zones". This is a different concept
 CH: true
+CN: true # https://en.wikipedia.org/wiki/File:China_road_sign_%E7%A6%81_43.svg
 CZ: true
 DE: true
 DK: true
@@ -20,12 +24,16 @@ ES: true
 FI: true
 FR: true
 GB: true
+GE: true
 GR: true
 HR: true
 HU: true
-IL: true
+IL: true # https://en.wikipedia.org/wiki/Road_signs_in_Israel#/media/File:Israel_road_sign_222.svg
 IS: true
 IT: true
+JP: true # https://github.com/streetcomplete/StreetComplete/pull/3359#issuecomment-946369389
+KG: true
+KZ: true
 LI: true
 LT: true
 LU: true
@@ -34,32 +42,26 @@ MC: true
 MD: true
 ME: true
 MK: true
-MT: true
+MO: true # https://commons.wikimedia.org/wiki/File:Macau_road_sign_22e.svg
+MU: true # https://en.wikipedia.org/wiki/Road_signs_in_Mauritius
+MX: true # https://en.wikipedia.org/wiki/File:MX_road_sign_SR-40.svg
 NL: true
 'NO': true
-PK: true
+NZ: false # sign R1-8.1 is NOT a speed limit zone sign but a temporary speed limit sign, see https://www.nzta.govt.nz/assets/resources/rules/docs/traffic-control-devices-2004-as-at-3-november-2025.pdf (page 101)
+PK: true # https://github.com/govdotpk/highway-code-book/blob/master/books/traffic-sign-urdu.pdf page 6
 PL: true
 PT: true
 RO: true
 RS: true
 RU: true
-SE: false
+SE: true # https://commons.wikimedia.org/wiki/File:1_2_77_3_(Swedish_road_sign).svg
 SI: true
 SM: true
 SK: true
+TJ: true
+TM: true
 UA: true
-# according to research, there are only "school zones". This is a different concept
-CA: false
-US: false
-# according to Wikipedia and Wikimedia Commons and GitHub comments
-MU: true # https://en.wikipedia.org/wiki/Road_signs_in_Mauritius
-AM: true # https://commons.wikimedia.org/wiki/File:5.31_Armenia_road_sign.svg
-AU: true # https://commons.wikimedia.org/wiki/File:Australia_road_sign_R4-10_(20).svg
-AU-NSW: false # https://commons.wikimedia.org/wiki/File:Australia_road_sign_R4-10_(20).svg
-AU-ACT: false # https://commons.wikimedia.org/wiki/File:Australia_road_sign_R4-10_(20).svg
-MX: true
-PE: true
-NZ: true
-JP: true # https://github.com/streetcomplete/StreetComplete/pull/3359#issuecomment-946369389
-CN: true # https://en.wikipedia.org/wiki/File:China_road_sign_%E7%A6%81_43.svg
-MO: true # https://commons.wikimedia.org/wiki/File:Macau_road_sign_22e.svg
+US: false # according to Wikipedia and Wikimedia Commons and GitHub comments
+UZ: true
+VA: true
+XK: true

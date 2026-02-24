@@ -1,15 +1,22 @@
 # The position of the label text seen on a slow zone (aka 30km/h-zone) sign. No default. If not
 # specified, there is no label text on the sign.
 #
-# research notes in https://github.com/streetcomplete/StreetComplete/pull/3359
-AD: top # https://www.mobilitat.ad/Uploads/reglament_dels_tipus_significat_dels_senyals_11_20210929115852_ca-ES.pdf page 44
+# sources:
+# https://en.wikipedia.org/wiki/Road_signs_in_the_European_microstates
+# https://commons.wikimedia.org/wiki/Comparison_of_European_road_signs:_Prohibitory
+# https://en.wikipedia.org/wiki/Traffic_signs_in_post-Soviet_states
+AD: top
+AL: bottom
 AM: top
 AT: bottom
 AU: bottom
+AZ: top
 BA: bottom
 BE: top
 BG: top
+BY: top
 CH: top
+CN: bottom
 CZ: top
 DE: bottom
 DK: bottom
@@ -17,18 +24,25 @@ EE: top
 ES: top
 FR: top
 GB: bottom
+GE: top
 GR: top
 HR: bottom
 HU: bottom
 IT: top
 JP: bottom
+KG: top
+KZ: top
 LI: top
+LT: top
 LU: top
 LV: bottom
+MC: top
 MD: top
+ME: bottom
 MK: bottom
 MO: top
 MU: bottom
+MX: top # just an approximation! Seehttps://en.wikipedia.org/wiki/File:MX_road_sign_SR-40.svg
 NL: top
 'NO': top
 PK: bottom # https://github.com/govdotpk/highway-code-book/blob/master/books/traffic-sign-urdu.pdf page 6
@@ -37,5 +51,11 @@ RO: bottom
 RS: bottom
 RU: top
 SI: top
+SM: top
 SK: top
+TJ: top
+TM: top
 UA: top
+UZ: top
+VA: top
+XK: bottom
