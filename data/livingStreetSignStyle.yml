@@ -10,10 +10,9 @@
 # Styles:
 # - vienna     - white on blue, white border, wide/landscape
 # - sadc       - same as vienna, only in portrait orientation and with red border
-# - russia     - same as vienna, only in portrait orientation
-# - france     - white on blue, white border, square, also shows a cylist
+# - russia     - same as vienna, only in portrait orientation (and apartment building instead of house)
+# - shared     - white on blue, white border, square, also shows a cylist since it rather denotes a shared space rather than a "play street" / "home street"
 # - australia  - black "Shared zone" with speed limit sign on white rectangular narrow/portrait with black border
-# - mexico     - same as vienna, but black on yellow
 # - columbia   - same as vienna, but black on white (with speed limit)
 #
 # In reality, each sign in each country looks slightly different, hence this is just a grouping by
@@ -41,13 +40,13 @@ DK: vienna # https://www.retsinformation.dk/eli/lta/2017/1632 E51 Opholds- og le
 EE: vienna
 ES: vienna
 FI: vienna
-FR: france # https://fr.wikipedia.org/wiki/Zone_de_rencontre
+FR: shared # https://fr.wikipedia.org/wiki/Zone_de_rencontre
 GB: vienna # https://en.wikipedia.org/wiki/Home_zone
 GE: vienna
 GR: vienna
 HR: vienna
 HU: vienna
-IL: vienna # actually it's square, like the French one but without the bicycle  https://www.noam-roads.co.il/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8-%D7%A8%D7%97%D7%95%D7%91-%D7%9E%D7%A9%D7%95%D7%9C%D7%91/
+IL: vienna # actually it's square, like the French one but without the bicycle but since it shows playing children, I think it is still closer to the default one https://www.noam-roads.co.il/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8-%D7%A8%D7%97%D7%95%D7%91-%D7%9E%D7%A9%D7%95%D7%9C%D7%91/
 IS: vienna
 KG: russia
 KZ: russia
@@ -56,7 +55,7 @@ LS: sadc
 LT: vienna
 LU: vienna
 LV: vienna
-MC: france
+MC: shared # same as France
 MD: vienna # https://de.wikipedia.org/wiki/Datei:Moldova_road_sign_5.54.1.svg
 ME: vienna
 MG: sadc
@@ -64,7 +63,7 @@ MK: vienna
 MN: russia # https://mra.mn/wp-content/uploads/2021/05/Zam-Durem-Tusul.pdf page 53
 MU: sadc
 MW: sadc
-MX: mexico # https://wiki.openstreetmap.org/wiki/File:SP-E17a_Calle_residencial.png
+MX: shared # https://wiki.openstreetmap.org/wiki/File:MX_road_sign_SIS-84.svg
 MZ: sadc
 NA: sadc
 NL: vienna
