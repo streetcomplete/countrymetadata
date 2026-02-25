@@ -18,7 +18,7 @@ AZ: true
 BA: true
 BE: true
 BG: true
-BW: true
+BW: true # Subsidiary Legislation, Volume XV, Chapter 69:01 ROAD TRAFFIC SIGNS REGULATIONS, PART III. School and playground zones, §24
 BY: true
 CA: false
 CH: true
@@ -39,6 +39,7 @@ HR: true
 HU: true
 IE: false # OSM wiki: "No special legal category corresponding to Living Streets exists in Ireland. Tag as residential with maxspeed of either 50 or 30 as indicated by signs"
 IL: true # https://www.noam-roads.co.il/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%9E%D7%A8%D7%95%D7%A8-%D7%A8%D7%97%D7%95%D7%91-%D7%9E%D7%A9%D7%95%D7%9C%D7%91/
+IM: true # The Manx Highway Code, §218. Home zones
 IS: true
 IT: false # OSM wiki: "Living streets do not exist in Italy. The 'sign Italian traffic signs - zona residenziale.svg' is defined as 'Zona residenziale', but no special rules corresponding to Living Streets exists. Tag as residential with maxspeed of either 50 or 30 as indicated by signs."
 JP: false # OSM wiki: "No special legal category corresponding to Living Streets exists in Japan. "
@@ -50,7 +51,7 @@ LT: true
 LU: true
 LV: true
 MC: true # like france
-MD: true # https://de.wikipedia.org/wiki/Datei:Moldova_road_sign_5.54.1.svg
+MD: true # https://de.wikipedia.org/wiki/Datei:Moldova_road_sign_5.54.1.svg ; Transnistria too
 ME: true # https://en.wikipedia.org/wiki/Road_signs_in_Montenegro
 MG: true
 MK: true
