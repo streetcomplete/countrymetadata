@@ -73,4 +73,10 @@ RU: true
 # https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276#K8
 # https://sv.wikipedia.org/wiki/Cykelfartsgata
 # https://commons.wikimedia.org/wiki/File:SE_road_sign_E33.svg
-SV: true
+SE: true
+
+# ZÁKON 8/2009 Z. z. (z 3. decembra 2008) o cestnej premávke a o zmene a doplnení niektorých zákonov, § 59a Osobitné ustanovenia o cestnej premávke na bicyklovej ceste
+# https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2009/8/20240401
+# This regulates the max speed of other vehicles on cycleways IF they are allowed to use cycleways due to a sign,
+# but this doesn't mean that bicycle boulevards exist in Slovakia
+SK: false
