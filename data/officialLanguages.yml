@@ -183,47 +183,55 @@ ID-YO: [id, jv]
 IE: [en, ga]
 IL: [he, ar]
 IM: [gv, en]
-# only Hindi and English are nationwide official languages, the rest only regional (but India is big. Putting English first because it is also the main trade language
-# so I include the most important ones, spoken by more than 5 mio people)
-IN: [en, hi, bn, te, mr, ta, ur, gu, kn, ml, or, pa, as, mai, ks]
-IN-AP: [te]
-# and many more.... https://en.wikipedia.org/wiki/Arunachal_Pradesh#Languages
-IN-AN: [hi, en, bn, ta]
+# only Hindi and English are nationwide official languages, then, those recognized under the
+# Eighth Schedule (sorted by number of speakers)
+IN: [en, hi, bn, mr, te, ta, gu, ur, kn, or, ml, pa, as, mai, sat, ks, ne, sd, doi, kok, mni, brx, sa]
+# since English is official on state level and English is usually used as second language on signs
+# next to local languages, always added it at least at second position.
+# source for below: https://en.wikipedia.org/wiki/Languages_with_official_recognition_in_India
+IN-AN: [en, hi]
+IN-AP: [te, en, ur]
 IN-AR: [en, hi]
-IN-AS: [as, bn, brx]
-IN-BR: [hi, ur]
-IN-CH: [en, hi, pa]
-IN-CT: [hi]
-IN-DD: [gu, kok, hi, en]
-IN-DL: [hi, en, pa]
-IN-DN: [gu,hi]
-IN-GA: [kok]
-IN-GJ: [gu]
-IN-HR: [hi]
-IN-HP: [hi,en]
-IN-JK: [ur,ks,doi,pa,en]
-IN-JH: [hi]
-IN-KA: [kn]
-IN-KL: [ml]
+IN-AS: [as, brx, en, bn]
+IN-BR: [hi, en, ur]
+IN-CH: [en, hi]
+IN-CG: [hi, en, hne]
+IN-CT: [hi, en, hne] # was renamed to IN-CG in 2023 - here for backward compatibility
+IN-DD: [en, hi, gu] # was replaced by IN-DH in 2023 - here for backward compatibility
+IN-DH: [en, hi, gu]
+IN-DL: [hi, en, pa, ur]
+IN-DN: [en, hi, gu] # was replaced by IN-DH in 2023 - here for backward compatibility
+IN-GA: [kok, en, mr]
+IN-GJ: [gu, en, hi]
+IN-HR: [hi, en, pa]
+IN-HP: [hi, en, sa]
+IN-JK: [ur, en, ks, doi, hi]
+IN-JH: [hi, en] # and many more "additional official"
+IN-KA: [kn, en]
+IN-KL: [ml, en]
+IN-LA: [lbi, prx, en, hi, ur]
 IN-LD: [en, ml]
-IN-MP: [hi]
-IN-MH: [mr]
-IN-MN: [mni]
-IN-ML: [en,kha,grt]
-IN-MZ: [lus,en]
-# too many languages for such a small state...
+IN-MP: [hi, en]
+IN-MH: [mr, en]
+IN-MN: [mni, en]
+IN-ML: [en, kha, grt]
+IN-MZ: [lus, en]
 IN-NL: [en]
-IN-OR: [or]
-IN-PB: [pa, hi, en]
-IN-PY: [ta, en, ml, te]
+IN-OD: [or, en]
+IN-OR: [or, en] # was renamed to IN-OD in 2023 - here for backward compatibility
+IN-PB: [pa, en]
+IN-PY: [ta, en, ml, te, fr]
 IN-RJ: [hi, en]
-IN-SK: [ne, en]
-IN-TN: [ta]
-IN-TG: [te, ur]
-IN-TR: [bn, trp]
-IN-UP: [hi, ur]
-IN-UT: [hi]
-IN-WB: [bn]
+IN-SK: [ne, en, sip, lep] # and many more "additional official"
+IN-TN: [ta, en]
+IN-TG: [te, en, ur] # was renamed to IN-TS in 2023 - here for backward compatibility
+IN-TS: [te, en, ur]
+IN-TR: [bn, en, trp]
+IN-UK: [hi, en, sa]
+IN-UL: [hi, en, sa] # was renamed to IN-UT in 2011 - here for backward compatibility
+IN-UP: [hi, en, ur]
+IN-UT: [hi, en, sa] # was renamed to IN-UK in 2023 - here for backward compatibility
+IN-WB: [bn, en] # and many more "additional official"
 IO: [en]
 IQ: [ar]
 IQ-KR: [ku, ar]
