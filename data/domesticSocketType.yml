@@ -1,73 +1,97 @@
 ## Mostly based on https://wiki.openstreetmap.org/wiki/Key:socket:*
 
 # EU
-AT: [typec, schuko]
-BE: [typec, typee]
-BG: [typec, schuko]
-CY: [bs1363]
-CZ: [typec, typee]
-DE: [typec, schuko]
-DK: [typec, schuko, typek]
-EE: [typec, schuko]
-ES: [typec, schuko]
-FI: [typec, schuko]
-FR: [typec, typee]
-GR: [typec, schuko]
-HR: [typec, schuko]
-HU: [typec, schuko]
-IE: [bs1363]
-IT: [typec, schuko, typeL]
-LT: [typec, schuko]
-LU: [typec, schuko]
-LV: [typec, schuko]
-MT: [bs1363]
-NL: [typec, schuko]
-PL: [typec, typee]
-PT: [typec, schuko]
-RO: [typec, schuko]
-SE: [typec, schuko]
-SI: [typec, schuko]
-SK: [typec, typee]
+
+AT: [typec, schuko]                 # Austria
+BE: [typec, typee]                  # Belgium
+BG: [typec, schuko]                 # Bulgaria
+CY: [bs1363]                         # Cyprus
+CZ: [typec, typee]                  # Czechia
+DE: [typec, schuko]                 # Germany
+DK: [typec, schuko, typek]          # Denmark
+EE: [typec, schuko]                 # Estonia
+ES: [typec, schuko]                 # Spain
+FI: [typec, schuko]                 # Finland
+FR: [typec, typee]                  # France
+GR: [typec, schuko]                 # Greece
+GL: [typec, typek]                  # Greenland
+HR: [typec, schuko]                 # Croatia
+HU: [typec, schuko]                 # Hungary
+IE: [bs1363]                         # Ireland
+IT: [typec, schuko, typeL]          # Italy
+LT: [typec, schuko]                 # Lithuania
+LU: [typec, schuko]                 # Luxembourg
+LV: [typec, schuko]                 # Latvia
+MT: [bs1363]                         # Malta
+NL: [typec, schuko]                 # Netherlands
+PL: [typec, typee]                  # Poland
+PT: [typec, schuko]                 # Portugal
+RO: [typec, schuko]                 # Romania
+SE: [typec, schuko]                 # Sweden
+SI: [typec, schuko]                 # Slovenia
+SK: [typec, typee]                  # Slovakia
 
 # non-EU
-AD: [typec, schuko]
-AL: [typec, schuko]
-AM: [typec, schuko]
-AZ: [typec, schukp]
-BA: [typec, schuko]
-BY: [typec, schuko]
-CH: [typec, sev1011_t13]
-GB: [bs1363]
-GE: [typec, schuko]
-IS: [typec, schuko]
-LI: [typec, sev1011_t13]
-MC: [typec, typee]
-MD: [typec, schuko]
-ME: [typec, schuko]
-MK: [typec, schuko]
-NO: [typec, schuko]
-RS: [typec, schuko]
-RU: [typec, schuko]
-SM: [typec, schuko, typeL]
-TR: [typec, schuko]
-KZ: [typec, schuko]
-VA: [typec, typeL]
-UA: [typec, schuko]
-XK: [typec, schuko]
 
+AD: [typec, schuko]                 # Andorra
+AL: [typec, schuko]                 # Albania
+AM: [typec, schuko]                 # Armenia
+AZ: [typec, schuko]                 # Azerbaijan
+BA: [typec, schuko]                 # Bosnia and Herzegovina
+BY: [typec, schuko]                 # Belarus
+CH: [typec, sev1011_t13]            # Switzerland
+GB: [bs1363]                         # United Kingdom
+GE: [typec, schuko]                 # Georgia
+IS: [typec, schuko]                 # Iceland
+LI: [typec, sev1011_t13]            # Liechtenstein
+MC: [typec, typee]                  # Monaco
+MD: [typec, schuko]                 # Moldova
+ME: [typec, schuko]                 # Montenegro
+MK: [typec, schuko]                 # North Macedonia
+NO: [typec, schuko]                 # Norway
+RS: [typec, schuko]                 # Serbia
+RU: [typec, schuko]                 # Russia
+SM: [typec, schuko, typeL]          # San Marino
+TR: [typec, schuko]                 # Türkiye
+KZ: [typec, schuko]                 # Kazakhstan
+VA: [typec, typeL]                  # Vatican City
+UA: [typec, schuko]                 # Ukraine
+XK: [typec, schuko]                 # Kosovo
 
 # North America
-CA: [nema_1_15, nema_5_15]
-MX: [nema_1_15, nema_5_15]
-US: [nema_1_15, nema_5_15, nema_5_20]
 
+CA: [nema_1_15, nema_5_15]          # Canada
+MX: [nema_1_15, nema_5_15]          # Mexico
+US: [nema_1_15, nema_5_15, nema_5_20] # United States
+
+# South America
+
+AR: [as3112, typec]                 # Argentina
+CL: [typec, typeL]                  # Chile
+
+# Central Asia
+
+AF: [typec, schuko]                 # Afghanistan
+IR: [typec, schuko]                 # Iran
 
 # East Asia
-CN: [gb1002]
-JP: [nema_1_15, nema_5_15]
-KR: [typec, schuko]
 
+CN: [gb1002]                         # China
+JP: [nema_1_15, nema_5_15]          # Japan
+KR: [typec, schuko]                 # South Korea
+MN: [typec, schuko]                 # Mongolia
+
+# Africa
+
+DZ: [typec, schuko]                 # Algeria
+MA: [typec, typee]                  # Morocco
+TN: [typec, typee]                  # Tunisia
 
 # Oceania
-AU: [as3112]
-NZ: [as3112]
+
+AU: [as3112]                         # Australia
+NZ: [as3112]                         # New Zealand
+FJ: [as3112]                         # Fiji
+PG: [as3112]                         # Papua New Guinea
+SB: [as3112]                         # Solomon Islands
+TO: [as3112]                         # Tonga
