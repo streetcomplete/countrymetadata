@@ -1,0 +1,64 @@
+## Mostly based on https://wiki.openstreetmap.org/wiki/Key:socket:*
+
+# EU
+AT: [typec, schuko]
+BE: [typec, typee]
+BG: [typec, schuko]
+CY: [bs1363]
+CZ: [typec, typee]
+DE: [typec, schuko]
+DK: [typec, schuko, typek]
+EE: [typec, schuko]
+ES: [typec, schuko]
+FI: [typec, schuko]
+FR: [typec, typee]
+GR: [typec, schuko]
+HR: [typec, schuko]
+HU: [typec, schuko]
+IE: [bs1363]
+IT: [typec, schuko, typeL]
+LT: [typec, schuko]
+LU: [typec, schuko]
+LV: [typec, schuko]
+MT: [bs1363]
+NL: [typec, schuko]
+PL: [typec, typee]
+PT: [typec, schuko]
+RO: [typec, schuko]
+SE: [typec, schuko]
+SI: [typec, schuko]
+SK: [typec, typee]
+
+# non-EU
+AD: [typec, schuko]
+AL: [typec, schuko]
+BA: [typec, schuko]
+CH: [typec, sev1011_t13]
+GB: [bs1363]
+IS: [typec, schuko]
+LI: [typec, sev1011_t13]
+MC: [typec, typee]
+ME: [typec, schuko]
+MK: [typec, schuko]
+NO: [typec, schuko]
+RS: [typec, schuko]
+SM: [typec, schuko, typeL]
+VA: [typec, typeL]
+XK: [typec, schuko]
+
+
+# North America
+CA: [nema_1_15, nema_5_15]
+MX: [nema_1_15, nema_5_15]
+US: [nema_1_15, nema_5_15, nema_5_20]
+
+
+# East Asia
+CN: [gb1002]
+JP: [nema_1_15, nema_5_15]
+KR: [typec, schuko]
+
+
+# Oceania
+AU: [as3112]
+NZ: [as3112]
