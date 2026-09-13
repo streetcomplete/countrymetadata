@@ -1,99 +1,348 @@
-## Mostly based on https://wiki.openstreetmap.org/wiki/Key:socket:* and https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#/media/File:World_map_of_electrical_mains_power_plug_types_used.svg.
-# The values are those used in the OSM Wiki. Checked: September 2026.
+# Socket types found in homes, shops, etc.
+#
+# In some countries it is quite messy because they don't have an official
+# standard. According to research (mostly from worldstandards.eu, see below),
+# the use of universal sockets is quite wide-spread in such regions.
+#
+# Most sockets can be neatly categorized with the letter designations for
+# generally compatible types of plugs maintained by the International
+# Electrotechnical Commission (IEC). However, some types, such as type L and J,
+# contain several plugs which are incompatible to each other. In this case,
+# we rather use the national standard names.
+#
+# Sources:
+# - https://wiki.openstreetmap.org/wiki/Key:socket:*
+# - https://en.wikipedia.org/wiki/Mains_electricity_by_country
+# - https://www.worldstandards.eu/electricity/plug-voltage-by-country/
+#
+# Synonyms:
+# - schuko = typef
+# - sev1011_* = sn41011_* = typej (but several distinct ones!)
+# - as3112 = typei
+# - nema_1_15 = typea
+# - nema_5_15 = typeb
+# - bs1363 = typeg
+# - cei23_50_s_* = Typel (but several distinct ones!)
+#
+#
+#
+# Checked: September 2026.
 
+# Europe
 
-# EU
-
-AT: [typec, schuko]                 # Austria
-BE: [typec, typee]                  # Belgium
-BG: [typec, schuko]                 # Bulgaria
-CY: [bs1363]                         # Cyprus
-CZ: [typec, typee]                  # Czechia
-DE: [typec, schuko]                 # Germany
-DK: [typec, schuko, typek]          # Denmark
-EE: [typec, schuko]                 # Estonia
-ES: [typec, schuko]                 # Spain
-FI: [typec, schuko]                 # Finland
-FR: [typec, typee]                  # France
-GR: [typec, schuko]                 # Greece
-GL: [typec, typek]                  # Greenland
-HR: [typec, schuko]                 # Croatia
-HU: [typec, schuko]                 # Hungary
-IE: [bs1363]                         # Ireland
-IT: [typec, schuko, typeL]          # Italy
-LT: [typec, schuko]                 # Lithuania
-LU: [typec, schuko]                 # Luxembourg
-LV: [typec, schuko]                 # Latvia
-MT: [bs1363]                         # Malta
-NL: [typec, schuko]                 # Netherlands
-PL: [typec, typee]                  # Poland
-PT: [typec, schuko]                 # Portugal
-RO: [typec, schuko]                 # Romania
-SE: [typec, schuko]                 # Sweden
-SI: [typec, schuko]                 # Slovenia
-SK: [typec, typee]                  # Slovakia
-
-# non-EU
-
-AD: [typec, schuko]                 # Andorra
-AL: [typec, schuko]                 # Albania
-AM: [typec, schuko]                 # Armenia
-AZ: [typec, schuko]                 # Azerbaijan
-BA: [typec, schuko]                 # Bosnia and Herzegovina
-BY: [typec, schuko]                 # Belarus
-CH: [typec, sev1011_t13]            # Switzerland
-GB: [bs1363]                         # United Kingdom
-GE: [typec, schuko]                 # Georgia
-IS: [typec, schuko]                 # Iceland
-LI: [typec, sev1011_t13]            # Liechtenstein
-MC: [typec, typee]                  # Monaco
-MD: [typec, schuko]                 # Moldova
-ME: [typec, schuko]                 # Montenegro
-MK: [typec, schuko]                 # North Macedonia
-NO: [typec, schuko]                 # Norway
-RS: [typec, schuko]                 # Serbia
-RU: [typec, schuko]                 # Russia
-SM: [typec, schuko, typeL]          # San Marino
-TR: [typec, schuko]                 # Türkiye
-KZ: [typec, schuko]                 # Kazakhstan
-VA: [typec, typeL]                  # Vatican City
-UA: [typec, schuko]                 # Ukraine
-XK: [typec, schuko]                 # Kosovo
+AD: [typef, typec]
+AL: [typef, typec]
+AT: [typef, typec]
+BA: [typef, typec]
+BE: [typee, typec]
+BG: [typef, typec]
+BY: [typef, typec]
+CH: [
+    sev1011_t13,
+    sev1011_t15,
+    sev1011_t23,
+    sev1011_t25,
+    typec,
+]
+CY: [typeg]
+CZ: [typee, typec]
+DE: [typef, typec]
+DK: [
+    typek,
+    typef,  # legal but rare
+    typee,   # legal but rare
+    typec,
+]
+DM: [typeg]
+EE: [typef, typec]
+ES: [typef, typec]
+FI: [typef, typec]
+FR: [typee, typec]
+GB: [typeg]
+GG: [typeg]
+GI: [typeg]
+GR: [typef, typec]
+HR: [typef, typec]
+HU: [typef, typec]
+IE: [typeg]
+IM: [typeg]
+IS: [typef, typec]
+IT: [
+    cei23_50_s_11,
+    cei23_50_s_17,
+    universal_l,      # aka CEI 23-50 P 17/11 - hybrid socket that accepts s11, s17
+    universal_lf,   # aka Schuko Duo, CEI 23-50 P 40 - hybrid socket that accepts s11, s17 and type F
+]
+JE: [typeg]
+LI: [
+    sev1011_t13,
+    sev1011_t15,
+    sev1011_t23,
+    sev1011_t25,
+    typec,
+]
+LT: [typef, typec]
+LU: [typef, typec]
+LV: [typef, typec]
+MC: [typee, typec]
+MD: [typef, typec]
+ME: [typef, typec]
+MK: [typef, typec]
+MT: [typeg]
+NL: [typef, typec]
+NO: [typef, typec]
+PL: [typee, typec]
+PT: [typef, typec]
+RO: [typef, typec]
+RS: [typef, typec]
+RU: [typef, typec]
+SE: [typef, typec]
+SI: [typef, typec]
+SM: [
+    cei23_50_s_11,
+    cei23_50_s_17,
+    universal_l,      # aka CEI 23-50 P 17/11 - hybrid socket that accepts s11, s17
+    universal_lf,   # aka Schuko Duo, CEI 23-50 P 40 - hybrid socket that accepts s11, s17 and type F
+]
+SK: [typee, typec]
+UA: [typef, typec]
+VA: [
+    cei23_50_s_11,
+    cei23_50_s_17,
+    universal_l,      # aka CEI 23-50 P 17/11 - hybrid socket that accepts s11, s17
+    universal_lf,   # aka Schuko Duo, CEI 23-50 P 40 - hybrid socket that accepts s11, s17 and type F
+]
+XK: [typef, typec]
 
 # North America
 
-CA: [nema_1_15, nema_5_15]          # Canada
-MX: [nema_1_15, nema_5_15]          # Mexico
-US: [nema_1_15, nema_5_15, nema_5_20] # United States
+BZ: [typeb, typea]
+CA: [
+    nema_5_15,  # typical
+    nema_1_15,  # old
+    nema_5_20,
+    nema_14_50, # RV, EV, …
+]
+CR: [typeb, typea]
+GL: [
+    typek,
+    typef,  # legal but rare
+    typee,   # legal but rare
+    typec,
+]
+GT: [typeb, typea]
+HN: [typeb, typea]
+MX: [
+    nema_5_15,  # typical
+    nema_1_15,  # old
+    nema_5_20,
+    nema_14_50, # RV, EV, …
+]
+NI: [typeb, typea]
+PA: [typeb, typea]
+PM: [typee, typec]
+SV: [typeb, typea]
+US: [
+    nema_5_15,  # typical
+    nema_1_15,  # old
+    nema_5_20,
+    nema_14_50, # RV, EV, …
+]
+
+# Caribbean
+
+AI: [typeb, typea]
+AG: [typeb, typea]
+AW: [typeb, typea]
+BB: [typeb, typea]
+BL: [typee, typec]
+BM: [typeb, typea]
+BS: [typeb, typea]
+CU: [typeb, typea]
+CW: [typeb, typea, typef]
+DO: [typeb, typea]
+GD: [typeg]
+GP: [typee, typec]
+HT: [typeb, typea]
+JM: [typeb, typea]
+KN: [typeb, typea, typeg]
+KY: [typeb, typea]
+LC: [typeg]
+MF: [typee, typec]
+MQ: [typee, typec]
+MS: [typeb, typea, typeg]
+NL-BQ1: [typeb, typea, typef]
+NL-BQ2: [typeb, typea]
+NL-BQ3: [typeb, typea]
+PR: [typeb, typea]
+RE: [typee, typec]
+SX: [typeb, typea]
+TC: [typeb, typea]
+TT: [typeb, typea]
+VC: [typeb, typea, typeg]
+VG: [typeb, typea]
+VI: [typeb, typea]
 
 # South America
 
-AR: [as3112, typec]                 # Argentina
-CL: [typec, typeL]                  # Chile
+AR: [typei, universal_ci]
+BO: [universal_abco, universal_ac, typec, typeb, typea]
+BR: [typen]
+CL: [typeL, typef, typec]
+CO: [
+    nema_5_15,
+    nema_1_15,
+    nema_5_20,
+]
+EC: [typeb, typea]
+FK: [typeg]
+GF: [typee, typec]
+GY: [typeb, typea]
+SH: [typeg]
+PE: [universal_abco, universal_ac, typec, typeb, typea]
+PY: [universal_abco, universal_ac, typec, typeb, typea, typen]
+SR: [typef, typec]
+UY: [typec, typel, typef]
+VE: [typeb, typea]
 
-# Central Asia
+# Asia
 
-AF: [typec, schuko]                 # Afghanistan
-IR: [typec, schuko]                 # Iran
-
-# East Asia
-
-CN: [gb1002]                         # China
-JP: [nema_1_15, nema_5_15]          # Japan
-KR: [typec, schuko]                 # South Korea
-MN: [typec, schuko]                 # Mongolia
+AE: [typeg]
+AF: [typef, typec]
+AM: [typef, typec]
+AZ: [typef, typec]
+BD: [typed, typem, universal_dm, universal_abcdefgio]
+BH: [typeg]
+BT: [typed, typem, typec, universal_dm]
+CN: [typei, typea]
+GE: [typef, typec]
+HK: [typeg]
+IL: [typeh, typec]
+IN: [typed, typem, universal_dm]
+IQ: [typeg, universal_abcdefgio]
+IR: [typef, typec]
+JO: [universal_ac, universal_abcdefgio]
+JP: [
+    nema_1_15,
+    nema_5_15,
+    nema_5_20,
+]
+KG: [typef, typec]
+KH: [universal_abcdefgio]
+KP: [typef, typec]
+KR: [typef, typec]
+KW: [typeg]
+KZ: [typef, typec]
+LA: [universal_abco, universal_ac, typec, typeb, typea]
+LB: [universal_ac, typef]
+LK: [typeg]
+MM: [universal_abcdefgio]
+MN: [typef, typec, universal_abcdefgio]
+MO: [typeg]
+MV: [typeg, universal_abcdefgio]
+MY: [typeg]
+NP: [typec, typed, typem]
+OM: [typeg]
+PK: [typed, universal_abcdefgio]
+PS: [typeh, typec]
+QA: [typeg]
+SA: [typeg]
+SG: [typeg]
+SY: [typec, typee, typef, typel]
+TH: [universal_abco, universal_ac, typeo, typec, typeb, typea]
+TJ: [typef, typec]
+TM: [typef, typec]
+TR: [typef, typec]
+TW: [typeb, typea]
+UZ: [typef, typec]
+YE: [typeg, universal_abcdefgio]
+VN: [universal_abco, universal_ac, typec, typeb, typea]
 
 # Africa
 
-DZ: [typec, schuko]                 # Algeria
-MA: [typec, typee]                  # Morocco
-TN: [typec, typee]                  # Tunisia
+AO: [typef, typec]
+BF: [typee, typec]
+BI: [typee, typec]
+BJ: [typee, typec]
+BW: [typem, typen]
+CF: [typee, typec]
+CD: [typee, typec]
+CG: [typee, typec]
+CI: [typee, typec]
+CM: [typee, typec]
+CV: [typef, typec]
+DJ: [typee, typec]
+DZ: [typef, typec]
+EG: [typef, typec]
+EH: [typee, typec]
+ER: [typec, typel, typee]
+ET: [typeg, typef, typec]
+GA: [typee, typec]
+GH: [typeg, universal_abcdefgio]
+GQ: [typee, typec]
+GM: [typeg]
+GN: [typef, typec]
+GW: [typef, typec]
+KE: [typeg]
+KM: [typee, typec]
+LS: [typem, typen, typec]
+LR: [universal_abco, universal_abcdefgio]
+LY: [typef, typec, typel]
+MA: [typee, typec]
+MG: [typee, typec]
+ML: [typee, typec]
+MR: [typee, typec]
+MU: [typeg, typee, typec]
+MW: [typeg]
+MZ: [typem, typen, typef, typec]
+NA: [typem, typec, typen]
+NE: [typee, typec]
+NG: [typeg]
+RW: [typeg, typec, typee, typef, universal_abcdefgio]
+SC: [typeg]
+SD: [typeg, typed, typec, universal_abcdefgio]
+SL: [typeg]
+SN: [typee, typec]
+SO: [typeg, universal_abcdefgio]
+SS: [typeg, typed, typec, universal_abcdefgio]
+ST: [typef, typec]
+SZ: [typem, typen, typec]
+TD: [typee, typef, typec]
+TG: [typee, typec]
+TN: [typee, typec]
+TZ: [typeg]
+UG: [typeg]
+YT: [typee, typec]
+ZA: [typen, typem, typec]
+ZM: [typeg]
+ZW: [typeg]
 
 # Oceania
 
-AU: [as3112]                         # Australia
-NZ: [as3112]                         # New Zealand
-FJ: [as3112]                         # Fiji
-PG: [as3112]                         # Papua New Guinea
-SB: [as3112]                         # Solomon Islands
-TO: [as3112]                         # Tonga
+AS: [typeb, typea]
+AU: [typei]
+BN: [typeg]
+NZ: [typei]
+FJ: [typei]
+FM: [typeb, typea]
+GU: [typeb, typea]
+ID: [typef, typec]
+KI: [typei]
+MH: [typeb, typea]
+NC: [type, typef, typec]
+NF: [typei]
+NR: [typei]
+NU: [typei]
+PF: [typee, typec]
+PG: [typei]
+PH: [universal_ac, universal_abco, typeb, typea, typec]
+PN: [typei]
+PW: [typeb, typea]
+SB: [typei]
+TK: [typei]
+TL: [universal_abcdefgio]
+TO: [typei]
+TV: [typei]
+VU: [typei]
+WF: [typee, typec]
+WS: [typei]
