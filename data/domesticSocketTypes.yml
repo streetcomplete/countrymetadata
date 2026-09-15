@@ -37,22 +37,11 @@ BA: [typef, typec]
 BE: [typee, typec]
 BG: [typef, typec]
 BY: [typef, typec]
-CH: [
-    sev1011_t13,
-    sev1011_t15,
-    sev1011_t23,
-    sev1011_t25,
-    typec,
-]
+CH: [sev1011_t13, sev1011_t15, sev1011_t23, sev1011_t25, typec]
 CY: [typeg]
 CZ: [typee, typec]
 DE: [typef, typec]
-DK: [
-    typek,
-    typef,  # legal but rare
-    typee,   # legal but rare
-    typec,
-]
+DK: [typek, typef, typee, typec] # Type F and E are legal but rare
 DM: [typeg]
 EE: [typef, typec]
 ES: [typef, typec]
@@ -67,20 +56,11 @@ HU: [typef, typec]
 IE: [typeg]
 IM: [typeg]
 IS: [typef, typec]
-IT: [
-    cei23_50_s_11,
-    cei23_50_s_17,
-    universal_l,      # aka CEI 23-50 P 17/11 - hybrid socket that accepts s11, s17
-    universal_lf,   # aka Schuko Duo, CEI 23-50 P 40 - hybrid socket that accepts s11, s17 and type F
-]
+# universal_l - aka CEI 23-50 P 17/11 - hybrid socket that accepts s11, s17
+# universal_lf - aka Schuko Duo, CEI 23-50 P 40 - hybrid socket that accepts s11, s17 and type F
+IT: [cei23_50_s_11, cei23_50_s_17, universal_l, universal_lf]
 JE: [typeg]
-LI: [
-    sev1011_t13,
-    sev1011_t15,
-    sev1011_t23,
-    sev1011_t25,
-    typec,
-]
+LI: [sev1011_t13, sev1011_t15, sev1011_t23, sev1011_t25, typec]
 LT: [typef, typec]
 LU: [typef, typec]
 LV: [typef, typec]
@@ -98,56 +78,27 @@ RS: [typef, typec]
 RU: [typef, typec]
 SE: [typef, typec]
 SI: [typef, typec]
-SM: [
-    cei23_50_s_11,
-    cei23_50_s_17,
-    universal_l,      # aka CEI 23-50 P 17/11 - hybrid socket that accepts s11, s17
-    universal_lf,   # aka Schuko Duo, CEI 23-50 P 40 - hybrid socket that accepts s11, s17 and type F
-]
+SM: [cei23_50_s_11, cei23_50_s_17, universal_l, universal_lf]
 SK: [typee, typec]
 UA: [typef, typec]
-VA: [
-    cei23_50_s_11,
-    cei23_50_s_17,
-    universal_l,      # aka CEI 23-50 P 17/11 - hybrid socket that accepts s11, s17
-    universal_lf,   # aka Schuko Duo, CEI 23-50 P 40 - hybrid socket that accepts s11, s17 and type F
-]
+VA: [cei23_50_s_11, cei23_50_s_17, universal_l, universal_lf]
 XK: [typef, typec]
 
 # North America
 
 BZ: [typeb, typea]
-CA: [
-    nema_5_15,  # typical
-    nema_1_15,  # old
-    nema_5_20,
-    nema_14_50, # RV, EV, …
-]
+# nema_5_15 is typical, nema_1_15 is old, nema_14_50 is sometimes used for RV, EV
+CA: [nema_5_15, nema_1_15, nema_5_20, nema_14_50]
 CR: [typeb, typea]
-GL: [
-    typek,
-    typef,  # legal but rare
-    typee,   # legal but rare
-    typec,
-]
+GL: [typek, typef, typee, typec] # Type F and E are legal but rare
 GT: [typeb, typea]
 HN: [typeb, typea]
-MX: [
-    nema_5_15,  # typical
-    nema_1_15,  # old
-    nema_5_20,
-    nema_14_50, # RV, EV, …
-]
+MX: [nema_5_15, nema_1_15, nema_5_20, nema_14_50]
 NI: [typeb, typea]
 PA: [typeb, typea]
 PM: [typee, typec]
 SV: [typeb, typea]
-US: [
-    nema_5_15,  # typical
-    nema_1_15,  # old
-    nema_5_20,
-    nema_14_50, # RV, EV, …
-]
+US: [nema_5_15, nema_1_15, nema_5_20, nema_14_50]
 
 # Caribbean
 
@@ -189,11 +140,7 @@ AR: [typei, universal_ci]
 BO: [universal_abco, universal_ac, typec, typeb, typea]
 BR: [typen]
 CL: [typeL, typef, typec]
-CO: [
-    nema_5_15,
-    nema_1_15,
-    nema_5_20,
-]
+CO: [nema_5_15, nema_1_15, nema_5_20]
 EC: [typeb, typea]
 FK: [typeg]
 GF: [typee, typec]
@@ -222,11 +169,7 @@ IN: [typed, typem, universal_dm]
 IQ: [typeg, universal_abcdefgio]
 IR: [typef, typec]
 JO: [universal_ac, universal_abcdefgio]
-JP: [
-    nema_1_15,
-    nema_5_15,
-    nema_5_20,
-]
+JP: [nema_1_15, nema_5_15, nema_5_20]
 KG: [typef, typec]
 KH: [universal_abcdefgio]
 KP: [typef, typec]
