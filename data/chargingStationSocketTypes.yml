@@ -1,6 +1,4 @@
-# Official charging station socket types for passenger cars by country.
-# Only those either mandated or extremely common (i.e. it would
-# constitute an exception if they are missing)
+# Common charging station socket types for passenger cars by country.
 #
 # Keys correspond to OSM socket:* values without the "socket:" prefix.
 #
@@ -11,61 +9,81 @@
 # QLever query to check which values are tagged per country:
 # https://qlever.dev/osm-planet/?query=PREFIX+osmkey%3A+%3Chttps%3A%2F%2Fwww.openstreetmap.org%2Fwiki%2FKey%3A%3E%0APREFIX+osmrel%3A+%3Chttps%3A%2F%2Fwww.openstreetmap.org%2Frelation%2F%3E%0APREFIX+ogc%3A+%3Chttp%3A%2F%2Fwww.opengis.net%2Frdf%23%3E%0A%0APREFIX+osm%3A+%3Chttps%3A%2F%2Fwww.openstreetmap.org%2F%3E%0ASELECT+%3Fkey+%28COUNT%28%3Felement%29+AS+%3Fcount%29+WHERE+%7B%0A++%23+++++++++v---+Relation+ID+of+country+goes+here%21%0A++osmrel%3A49715+ogc%3AsfContains+%3Felement+.%0A++%3Felement+osmkey%3Aamenity+%22charging_station%22+.%0A++%3Felement+%3Fpredicate+%3Fvalue+.%0A++FILTER+NOT+EXISTS+%7B+%3Felement+osmkey%3Amotor_vehicle+%22no%22+%7D%0A++FILTER+NOT+EXISTS+%7B+%3Felement+osmkey%3Amotorcar+%22no%22+%7D%0A++BIND+%28STRAFTER%28STR%28%3Fpredicate%29%2C+%22https%3A%2F%2Fwww.openstreetmap.org%2Fwiki%2FKey%3A%22%29+AS+%3Fkey%29%0A++FILTER+%28REGEX%28STR%28%3Fkey%29%2C+%22%5Esocket%3A%5Ba-zA-Z_0-9%5D%2B%24%22%29%29%0A%7D%0AGROUP+BY+%3Fkey%0AORDER+BY+DESC%28%3Fcount%29
 
+# see https://www.worldstandards.eu/cars/spread-ev-connector-types-map/
+default: [type2_cable, type2, type2_combo, chademo]
+
 # EU mandates that on each charging station, there must be at least one type2
-AT: [type2_cable, type2, type2_combo]
-BE: [type2_cable, type2, type2_combo]
-BG: [type2_cable, type2, type2_combo]
-CY: [type2_cable, type2, type2_combo]
-CZ: [type2_cable, type2, type2_combo]
-DE: [type2_cable, type2, type2_combo]
-DK: [type2_cable, type2, type2_combo]
-EE: [type2_cable, type2, type2_combo]
-ES: [type2_cable, type2, type2_combo]
-FI: [type2_cable, type2, type2_combo]
-FR: [type2_cable, type2, type2_combo]
-GR: [type2_cable, type2, type2_combo]
-HR: [type2_cable, type2, type2_combo]
-HU: [type2_cable, type2, type2_combo]
-IE: [type2_cable, type2, type2_combo]
-IT: [type2_cable, type2, type2_combo]
-LT: [type2_cable, type2, type2_combo]
-LU: [type2_cable, type2, type2_combo]
-LV: [type2_cable, type2, type2_combo]
-MT: [type2_cable, type2, type2_combo]
-NL: [type2_cable, type2, type2_combo]
-PL: [type2_cable, type2, type2_combo]
-PT: [type2_cable, type2, type2_combo]
-RO: [type2_cable, type2, type2_combo]
-SE: [type2_cable, type2, type2_combo]
-SI: [type2_cable, type2, type2_combo]
-SK: [type2_cable, type2, type2_combo]
+AT: [type2_cable, type2, type2_combo, chademo]
+BE: [type2_cable, type2, type2_combo, chademo]
+BG: [type2_cable, type2, type2_combo, chademo]
+CY: [type2_cable, type2, type2_combo, chademo]
+CZ: [type2_cable, type2, type2_combo, chademo]
+DE: [type2_cable, type2, type2_combo, chademo]
+DK: [type2_cable, type2, type2_combo, chademo]
+EE: [type2_cable, type2, type2_combo, chademo]
+ES: [type2_cable, type2, type2_combo, chademo]
+FI: [type2_cable, type2, type2_combo, chademo]
+FR: [type2_cable, type2, type2_combo, chademo, type3c, type3a]
+GR: [type2_cable, type2, type2_combo, chademo]
+HR: [type2_cable, type2, type2_combo, chademo]
+HU: [type2_cable, type2, type2_combo, chademo]
+IE: [type2_cable, type2, type2_combo, chademo]
+IT: [type2_cable, type2, type2_combo, chademo, type3a, type3c]
+LT: [type2_cable, type2, type2_combo, chademo]
+LU: [type2_cable, type2, type2_combo, chademo]
+LV: [type2_cable, type2, type2_combo, chademo]
+MT: [type2_cable, type2, type2_combo, chademo]
+NL: [type2_cable, type2, type2_combo, chademo]
+PL: [type2_cable, type2, type2_combo, chademo]
+PT: [type2_cable, type2, type2_combo, chademo]
+RO: [type2_cable, type2, type2_combo, chademo]
+SE: [type2_cable, type2, type2_combo, chademo]
+SI: [type2_cable, type2, type2_combo, chademo]
+SK: [type2_cable, type2, type2_combo, chademo]
 # United Kingdom was still in the EU when the decision was made
-GB: [type2_cable, type2, type2_combo]
-GG: [type2_cable, type2, type2_combo]
-IM: [type2_cable, type2, type2_combo]
-JE: [type2_cable, type2, type2_combo]
+GB: [type2_cable, type2, type2_combo, chademo]
+GG: [type2_cable, type2, type2_combo, chademo]
+IM: [type2_cable, type2, type2_combo, chademo]
+JE: [type2_cable, type2, type2_combo, chademo]
 # not in the EU, but aligned with it economically
-AD: [type2_cable, type2, type2_combo]
-IS: [type2_cable, type2, type2_combo]
-LI: [type2_cable, type2, type2_combo]
-MC: [type2_cable, type2, type2_combo]
-NO: [type2_cable, type2, type2_combo]
-SM: [type2_cable, type2, type2_combo]
-VA: [type2_cable, type2, type2_combo]
-CH: [type2_cable, type2, type2_combo]
+AD: [type2_cable, type2, type2_combo, chademo]
+IS: [type2_cable, type2, type2_combo, chademo]
+LI: [type2_cable, type2, type2_combo, chademo]
+MC: [type2_cable, type2, type2_combo, chademo]
+NO: [type2_cable, type2, type2_combo, chademo]
+SM: [type2_cable, type2, type2_combo, chademo]
+VA: [type2_cable, type2, type2_combo, chademo]
+CH: [type2_cable, type2, type2_combo, chademo, type1]
 
 # Russia: according to various news sources, there is a subsidy for charging
 # stations only if it has as least one GB/T connector, that's a soft standard
-RU: [type2_cable, type2, type2_combo, gb_dc]
+BY: [type2_cable, type2, type2_combo, gb_dc, chademo]
+RU: [type2_cable, type2, type2_combo, gb_dc, chademo]
 
 # North America
-# USA designated type1 + nacs as official standards
-CA: [nacs, type1, type1_combo]
-MX: [nacs, type1, type1_combo]
-US: [nacs, type1, type1_combo]
+# USA designated type1 + nacs as official standards and influences all of north america
+CA: [nacs, type1, type1_combo, chademo]
+MX: [nacs, type1, type1_combo, chademo]
+US: [nacs, type1, type1_combo, chademo]
+
+BS: [nacs, type1, type1_combo, chademo]
+BZ: [nacs, type1, type1_combo, chademo]
+CR: [nacs, type1, type1_combo, chademo]
+CU: [nacs, type1, type1_combo, chademo]
+DO: [nacs, type1, type1_combo, chademo]
+GT: [nacs, type1, type1_combo, chademo]
+HN: [nacs, type1, type1_combo, chademo]
+HT: [nacs, type1, type1_combo, chademo]
+JM: [nacs, type1, type1_combo, chademo]
+NI: [nacs, type1, type1_combo, chademo]
+PA: [nacs, type1, type1_combo, chademo]
+PR: [nacs, type1, type1_combo, chademo]
+SV: [nacs, type1, type1_combo, chademo]
+VI: [nacs, type1, type1_combo, chademo]
 
 # Asia
-CN: [gb_ac, gb_dc]
+CN: [gb_ac, gb_dc, chaoji]
 HK: [gb_ac, gb_dc]
 MO: [gb_ac, gb_dc]
-JP: [type1, nacs, chademo]
+JP: [type1, nacs, chademo, chaoji]
+KO: [type1, nacs, type2_cable, type2, type2_combo, chademo]
